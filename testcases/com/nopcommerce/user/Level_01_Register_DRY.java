@@ -11,7 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class User_01_Register {
+public class Level_01_Register_DRY {
 
 	WebDriver driver;
 	String projectPathString = System.getProperty("user.dir");
@@ -61,8 +61,9 @@ public class User_01_Register {
 		driver.findElement(By.cssSelector("input#ConfirmPassword")).sendKeys("123456");
 		driver.findElement(By.cssSelector("button#register-button")).click();
 
-		driver.findElement(By.cssSelector("a.register-continue-button")).click();
 		Assert.assertEquals(driver.findElement(By.cssSelector("div.result")).getText(), "Your registration completed");
+		driver.findElement(By.cssSelector("a.register-continue-button")).click();
+		
 		
 	}
 

@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.opera.OperaDriver;
 
 public class BaseTest {
 	private WebDriver driver;
@@ -39,6 +40,24 @@ public class BaseTest {
 			driver = new EdgeDriver();
 			break;
 
+		case "opera":
+			System.setProperty("webdriver.opera.driver", projectPathString + "\\browserDrivers\\operadriver.exe");
+			driver = new OperaDriver();
+			break;
+		case "coccoc":
+			
+			// coccoc browser tru di 5,6 version thi ra version chrome driver
+			System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
+			ChromeOptions coccocOption = new ChromeOptions();
+			coccocOption.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+			driver = new ChromeDriver(coccocOption);
+			break;
+		case "brave":
+			System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
+			ChromeOptions braveOption = new ChromeOptions();
+			braveOption.setBinary("\"C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(braveOption);
+			break;
 		default:
 			break;
 		}

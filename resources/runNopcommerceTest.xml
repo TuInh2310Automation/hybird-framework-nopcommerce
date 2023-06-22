@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-	<test name="Run on Headless Firefox">
-		<parameter name="browser" value="h_firefox" />
+	
+	<test name="Run on Coccoc">
+		<parameter name="browser" value="coccoc" />
 		<classes>
 			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
 		</classes>
 	</test> <!-- Test -->
-
-	<test name="Run on Headless Chrome">
-		<parameter name="browser" value="h_chrome" />
+	
+	<test name="Run on Opera">
+		<parameter name="browser" value="opera" />
 		<classes>
 			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
 		</classes>

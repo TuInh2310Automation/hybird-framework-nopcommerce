@@ -55,7 +55,7 @@ public class BaseTest {
 		case "brave":
 			System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
 			ChromeOptions braveOption = new ChromeOptions();
-			braveOption.setBinary("\"C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			braveOption.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
 			driver = new ChromeDriver(braveOption);
 			break;
 		default:

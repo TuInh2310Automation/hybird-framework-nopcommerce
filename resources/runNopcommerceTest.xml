@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
 	
-	<test name="Run on Coccoc">
-		<parameter name="browser" value="coccoc" />
+	<test name="Run on Brave">
+		<parameter name="browser" value="brave" />
 		<classes>
 			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
 		</classes>
 	</test> <!-- Test -->
-	
-	<test name="Run on Opera">
-		<parameter name="browser" value="opera" />
-		<classes>
-			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
-		</classes>
-	</test> <!-- Test -->
+
 
 
 

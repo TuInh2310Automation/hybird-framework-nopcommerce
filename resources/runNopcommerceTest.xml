@@ -7,8 +7,34 @@
 			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<test name="Run on Opera">
+		<parameter name="browser" value="opera" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
+		</classes>
+	</test> <!-- Test -->
 
-
+<test name="Run on Coccoc">
+		<parameter name="browser" value="coccoc" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_04_Multiple_Browser" />
+		</classes>
+	</test> <!-- Test -->
 
 
 </suite> <!-- Suite -->

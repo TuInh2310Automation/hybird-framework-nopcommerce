@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import commons.BasePage;
 import commons.BasePageFactory;
-import pageUI.HomePageUI;
+import pageUI.nopCommerce.user.HomePageUI;
 
 public class HomePageObject extends BasePageFactory{
 

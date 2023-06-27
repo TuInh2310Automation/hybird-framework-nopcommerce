@@ -12,8 +12,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import commons.BasePage;
-import pageObjects.HomePageObject;
-import pageObjects.RegisterPageObject;
+import pageObjectsl.nopCommerce.user.User_HomePageObject;
+import pageObjectsl.nopCommerce.user.User_RegisterPageObject;
 
 public class Level_05_PageFactory {
 
@@ -21,8 +21,8 @@ public class Level_05_PageFactory {
 	private String projectPathString = System.getProperty("user.dir");
 	private String emailAddress = "afc" + generateRandomNumber() + "@mail.vn";
 	BasePage basePage;
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
+	private User_HomePageObject homePage;
+	private User_RegisterPageObject registerPage;
 	private String firstName = "Automation";
 	private String lastname = "FC";
 	private String password = "123456";
@@ -35,8 +35,8 @@ public class Level_05_PageFactory {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
 
-		homePage = new HomePageObject(driver);
-		registerPage = new RegisterPageObject(driver);
+		homePage = new User_HomePageObject(driver);
+		registerPage = new User_RegisterPageObject(driver);
 	}
 
 	@Test

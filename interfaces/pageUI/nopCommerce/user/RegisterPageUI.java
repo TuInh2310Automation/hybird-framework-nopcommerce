@@ -1,4 +1,4 @@
-package pageUI;
+package pageUI.nopCommerce.user;
 
 import org.openqa.selenium.By;
 

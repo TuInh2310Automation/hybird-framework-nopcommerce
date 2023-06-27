@@ -15,11 +15,20 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.nopCommerce.admin.Admin_LoginPageObject;
+import pageObjectsl.nopCommerce.user.User_AddressPageObject;
+import pageObjectsl.nopCommerce.user.User_CustomerInfoPageObject;
+import pageObjectsl.nopCommerce.user.User_HomePageObject;
+import pageObjectsl.nopCommerce.user.User_MyProductReviewsPageObject;
+import pageObjectsl.nopCommerce.user.User_RewardPointsPageObject;
+import pageUI.nopCommerce.user.BasePageUI;
+
 public class BasePage {
 
 	public static BasePage getBasePageObject() {
 		return new BasePage();
 	}
+
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
 	}
@@ -319,31 +328,68 @@ public class BasePage {
 			return false;
 		}
 	}
-	
+
 	public void waitForElementVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(xpathLocator)));
 	}
-	
+
 	public void waitForAllElementVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(xpathLocator)));
 	}
-	
+
 	public void waitForElementInvisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(xpathLocator)));
 	}
-	
+
 	public void waitForAllElementInvisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, xpathLocator)));
 	}
-	
+
 	public void waitForElementClickable(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(xpathLocator)));
 	}
+
+	public User_AddressPageObject openAddressPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
+		clickToElement(driver, BasePageUI.ADDRESS_LINK);
+		return PageGeneratorManagement.getUserAddressPage(driver);
+	}
+
+	public User_RewardPointsPageObject openRewardPointPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.REWARD_POINT_LINK);
+		clickToElement(driver, BasePageUI.REWARD_POINT_LINK);
+		return PageGeneratorManagement.getUserRewardPointsPage(driver);
+	}
+	
+	public User_MyProductReviewsPageObject openMyProductReviewsPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.MY_PRODUCT_LINK);
+		clickToElement(driver, BasePageUI.MY_PRODUCT_LINK);
+		return PageGeneratorManagement.getUserMyProductReviewPage(driver);
+	}
+	
+	public User_CustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
+		return PageGeneratorManagement.getUserCustomerInfoPage(driver);
+	}
+	
+	public User_HomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGOUT_USER_LINK);
+		clickToElement(driver, BasePageUI.LOGOUT_USER_LINK);
+		return PageGeneratorManagement.getUserHomePageObject(driver);
+	}
+	
+	public Admin_LoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGOUT_ADMIN_LINK);
+		clickToElement(driver, BasePageUI.LOGOUT_ADMIN_LINK);
+		return PageGeneratorManagement.getAdminLoginPagee(driver);
+	}
+	
 	private long longTimeout = 30;
-	private long shortTimeout = 5;
+
 }

@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 
 import commons.BasePage;
 import commons.BasePageFactory;
-import pageUI.HomePageUI;
-import pageUI.RegisterPageUI;
+import pageUI.nopCommerce.user.HomePageUI;
+import pageUI.nopCommerce.user.RegisterPageUI;
 
 public class RegisterPageObject extends BasePageFactory{
 

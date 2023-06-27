@@ -1,5 +1,7 @@
 package commons;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -71,6 +73,8 @@ public class BaseTest {
 		default:
 			break;
 		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("https://demo.nopcommerce.com/");
 		return driver;
 	}
 

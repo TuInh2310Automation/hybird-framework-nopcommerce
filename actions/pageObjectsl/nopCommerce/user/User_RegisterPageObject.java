@@ -1,17 +1,18 @@
-package pageObjects;
+package pageObjectsl.nopCommerce.user;
 
 import java.util.Base64;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUI.RegisterPageUI;
+import commons.PageGeneratorManagement;
+import pageUI.nopCommerce.user.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class User_RegisterPageObject extends BasePage {
 
 	WebDriver driver;
 
-	public RegisterPageObject(WebDriver driver) {
+	public User_RegisterPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -99,10 +100,11 @@ public class RegisterPageObject extends BasePage {
 		return getElementText(driver, RegisterPageUI.EXISTING_EMAIL_ERROR);
 	}
 
-	public void gotoHomePage() {
+	public User_HomePageObject gotoHomePage() {
 		// TODO Auto-generated method stub
 		waitForElementClickable(driver, RegisterPageUI.CONTINUE_BUTTON);
 		clickToElement(driver, RegisterPageUI.CONTINUE_BUTTON);
+		return PageGeneratorManagement.getUserHomePageObject(driver);
 	}
 
 }

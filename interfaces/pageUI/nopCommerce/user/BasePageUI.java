@@ -9,6 +9,8 @@ public class BasePageUI {
  public static final String REWARD_POINT_LINK = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='Reward points']";
  public static final String CHANGE_PW_LINK = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='Change password']";
  public static final String MY_PRODUCT_LINK = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='My product reviews']";
+ public static final String DYNAMIC_PAGE_AT_MYACCOUNT_LINK = "xpath=//div[contains(@class, 'account-navigation')]//a[text()='%s']";
+ 
  public static final String LOGOUT_USER_LINK = "class=ico-logout";
  public static final String LOGOUT_ADMIN_LINK = "xpath=//a[text()='Logout']";
 }

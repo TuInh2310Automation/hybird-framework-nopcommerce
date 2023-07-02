@@ -2,12 +2,14 @@ package commons;
 
 import static org.testng.Assert.assertNotNull;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -119,9 +121,12 @@ public class BasePage {
 		if (subStringLocator.length >= 2) {
 			String type = subStringLocator[0].toLowerCase();
 			String locatorString = subStringLocator[1];
-			if (subStringLocator.length == 3) {
-				locatorString += "=" + subStringLocator[2];
+			if (subStringLocator.length > 2) {
+				for (int i = 2; i < subStringLocator.length; i++) {
+					locatorString += "=" + subStringLocator[i];
+				}
 			}
+
 			switch (type) {
 			case "id":
 				by = By.id(locatorString);
@@ -144,6 +149,7 @@ public class BasePage {
 		} else {
 			throw new RuntimeException("Wrong format of locator");
 		}
+
 		return by;
 	}
 
@@ -156,11 +162,11 @@ public class BasePage {
 
 	}
 
-	private WebElement getWebElement(WebDriver driver, String locatorString) {
+	public WebElement getWebElement(WebDriver driver, String locatorString) {
 		return driver.findElement(getByLocator(locatorString));
 	}
 
-	private List<WebElement> getListWebElement(WebDriver driver, String locatorString) {
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorString) {
 		return driver.findElements(getByLocator(locatorString));
 	}
 
@@ -261,6 +267,19 @@ public class BasePage {
 		}
 	}
 
+	public void checkToDefaultCheckboxRadio(WebDriver driver, String locatorString, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorString, dynamicValues));
+		if (!element.isSelected()) {
+			element.click();
+		}
+	}
+
+	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorString, String... dynamicValues) {
+		WebElement element = getWebElement(driver, getDynamicXpath(locatorString, dynamicValues));
+		if (element.isSelected()) {
+			element.click();
+		}
+	}
 	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorString) {
 		WebElement element = getWebElement(driver, locatorString);
 		if (element.isSelected()) {
@@ -292,9 +311,22 @@ public class BasePage {
 		driver.switchTo().defaultContent();
 	}
 
-	public void hoverMouseToElement(WebDriver driver, String locatorString) {
+	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
-		action.moveToElement(getWebElement(driver, locatorString)).perform();
+		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
+		// TODO Auto-generated method stub
+		Actions action = new Actions(driver);
+		action.sendKeys(getWebElement(driver, locatorType), key).perform();
+
+	}
+
+	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key, String dynamicValues) {
+		// TODO Auto-generated method stub
+		Actions action = new Actions(driver);
+		action.sendKeys(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)), key).perform();
 	}
 
 	public Object executeForBrowser(WebDriver driver, String javaScript) {
@@ -434,6 +466,7 @@ public class BasePage {
 
 	public void waitForElementClickable(WebDriver driver, String locatorString, String... dynamicValues) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		System.out.println("locator" + getByLocator(getDynamicXpath(locatorString, dynamicValues)));
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicXpath(locatorString, dynamicValues))));
 	}
 
@@ -458,12 +491,11 @@ public class BasePage {
 			throw new RuntimeException("Invalid page name at my account area");
 		}
 	}
-	
+
 	public void openPageAtMyAccountByPageName(WebDriver driver, String pageName) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
 		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
 	}
-	
 
 	public User_AddressPageObject openAddressPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);

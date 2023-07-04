@@ -25,7 +25,8 @@ import pageObjectsl.nopCommerce.user.User_CustomerInfoPageObject;
 import pageObjectsl.nopCommerce.user.User_HomePageObject;
 import pageObjectsl.nopCommerce.user.User_MyProductReviewsPageObject;
 import pageObjectsl.nopCommerce.user.User_RewardPointsPageObject;
-import pageUI.nopCommerce.user.BasePageUI;
+import pageUI.jQuery.uploadFiles.BasePagejQueryUI;
+import pageUI.nopCommerce.user.BasePageNopCommerceUI;
 
 public class BasePage {
 
@@ -417,13 +418,14 @@ public class BasePage {
 	public boolean isImageLoaded(WebDriver driver, String locatorString) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, locatorString));
-		if (status) {
-			return true;
-		} else {
-			return false;
-		}
+		return status;
 	}
 
+	public boolean isImageLoaded(WebDriver driver, String locatorString, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, getDynamicXpath(locatorString, dynamicValues)));
+		return status;
+	} 
 	public void waitForElementVisible(WebDriver driver, String locatorString, String... dynamicValues) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorString, dynamicValues))));
@@ -475,9 +477,18 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorString)));
 	}
 
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+		String filePath = GlobalConstants.UPLOAD_FILE;
+		String fullFileName = "";
+		for (String fileName : fileNames) {
+			fullFileName += filePath + fileName + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, BasePagejQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
+	}
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
+		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
 		switch (pageName) {
 		case "Customer info":
 			return PageGeneratorManagement.getUserCustomerInfoPage(driver);
@@ -493,43 +504,43 @@ public class BasePage {
 	}
 
 	public void openPageAtMyAccountByPageName(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
+		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
 	}
 
 	public User_AddressPageObject openAddressPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
-		clickToElement(driver, BasePageUI.ADDRESS_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.ADDRESS_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.ADDRESS_LINK);
 		return PageGeneratorManagement.getUserAddressPage(driver);
 	}
 
 	public User_RewardPointsPageObject openRewardPointPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.REWARD_POINT_LINK);
-		clickToElement(driver, BasePageUI.REWARD_POINT_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.REWARD_POINT_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.REWARD_POINT_LINK);
 		return PageGeneratorManagement.getUserRewardPointsPage(driver);
 	}
 
 	public User_MyProductReviewsPageObject openMyProductReviewsPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.MY_PRODUCT_LINK);
-		clickToElement(driver, BasePageUI.MY_PRODUCT_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.MY_PRODUCT_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.MY_PRODUCT_LINK);
 		return PageGeneratorManagement.getUserMyProductReviewPage(driver);
 	}
 
 	public User_CustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.CUSTOMER_INFO_LINK);
-		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.CUSTOMER_INFO_LINK);
 		return PageGeneratorManagement.getUserCustomerInfoPage(driver);
 	}
 
 	public User_HomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.LOGOUT_USER_LINK);
-		clickToElement(driver, BasePageUI.LOGOUT_USER_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_USER_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_USER_LINK);
 		return PageGeneratorManagement.getUserHomePageObject(driver);
 	}
 
 	public Admin_LoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
-		waitForElementClickable(driver, BasePageUI.LOGOUT_ADMIN_LINK);
-		clickToElement(driver, BasePageUI.LOGOUT_ADMIN_LINK);
+		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_ADMIN_LINK);
+		clickToElement(driver, BasePageNopCommerceUI.LOGOUT_ADMIN_LINK);
 		return PageGeneratorManagement.getAdminLoginPagee(driver);
 	}
 

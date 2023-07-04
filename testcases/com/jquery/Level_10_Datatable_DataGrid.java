@@ -1,4 +1,4 @@
-package com.jquery.database;
+package com.jquery;
 
 import static org.testng.Assert.assertTrue;
 
@@ -17,8 +17,8 @@ import org.testng.annotations.Test;
 import commons.BasePage;
 import commons.BaseTest;
 import commons.PageGeneratorManagement;
-import pageObjects.jQuery.HomePageObject;
-import pageObjects.jQuery.PageGeneratorManager;
+import pageObjects.jQuery.dataTable.HomePageObject;
+import pageObjects.jQuery.dataTable.PageGeneratorManager;
 import pageObjectsl.nopCommerce.user.User_AddressPageObject;
 import pageObjectsl.nopCommerce.user.User_CustomerInfoPageObject;
 import pageObjectsl.nopCommerce.user.User_HomePageObject;

@@ -52,8 +52,6 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
-		
-
 	}
 
 	@Test

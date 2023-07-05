@@ -4,6 +4,7 @@ import static org.testng.Assert.assertNotNull;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 import org.openqa.selenium.Alert;
@@ -281,6 +282,7 @@ public class BasePage {
 			element.click();
 		}
 	}
+
 	public void uncheckToDefaultCheckboxRadio(WebDriver driver, String locatorString) {
 		WebElement element = getWebElement(driver, locatorString);
 		if (element.isSelected()) {
@@ -289,11 +291,27 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplay(WebDriver driver, String locatorString, String... dynamicValues) {
-		return getWebElement(driver, getDynamicXpath(locatorString, dynamicValues)).isDisplayed();
+		try {
+			// tìm thấy element
+			// case 1: display: trả về true
+			// case 2: undisplay: trả về false
+			return getWebElement(driver, getDynamicXpath(locatorString, dynamicValues)).isDisplayed();
+		} catch (NoSuchElementException e) {
+			// case 3: ko thấy element
+			return false;
+		}
 	}
 
 	public boolean isElementDisplay(WebDriver driver, String locatorString) {
-		return getWebElement(driver, locatorString).isDisplayed();
+		try {
+			// tìm thấy element
+			// case 1: display: trả về true
+			// case 2: undisplay: trả về false
+			return getWebElement(driver, locatorString).isDisplayed();
+		} catch (NoSuchElementException e) {
+			// case 3: ko thấy element
+			return false;
+		}
 	}
 
 	public boolean isElementEnabled(WebDriver driver, String locatorString) {
@@ -423,9 +441,11 @@ public class BasePage {
 
 	public boolean isImageLoaded(WebDriver driver, String locatorString, String... dynamicValues) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", getWebElement(driver, getDynamicXpath(locatorString, dynamicValues)));
+		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+				getWebElement(driver, getDynamicXpath(locatorString, dynamicValues)));
 		return status;
-	} 
+	}
+
 	public void waitForElementVisible(WebDriver driver, String locatorString, String... dynamicValues) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorString, dynamicValues))));
@@ -486,6 +506,7 @@ public class BasePage {
 		fullFileName = fullFileName.trim();
 		getWebElement(driver, BasePagejQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
 	}
+
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);
 		clickToElement(driver, BasePageNopCommerceUI.DYNAMIC_PAGE_AT_MYACCOUNT_LINK, pageName);

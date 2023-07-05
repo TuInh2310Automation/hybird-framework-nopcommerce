@@ -59,4 +59,12 @@ public class LoginPageObject extends BasePage {
 		clickToElement(driver, LoginPageUI.CLOSE_REGISTER_BUTTON);
 	}
 
+	public boolean isConfirmEmailAddressTextBoxUnDisplay() {
+		// TODO Auto-generated method stub
+		// 5s
+		waitForElementUndisplayed(driver, LoginPageUI.EMAIL_ADDRESS_CONFIRM_TEXTBOX);
+		//5s
+		return isElementUndisplayed(driver,LoginPageUI.EMAIL_ADDRESS_CONFIRM_TEXTBOX);
+	}
+
 }

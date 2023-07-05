@@ -59,7 +59,7 @@ public class Level_13_Element_Undisplay extends BaseTest {
 	public void TC_03_Verify_Element_UnDisplay_NotInDOM() {
 		loginPage.closeRegisterPopup();
 		sleepInSecond(3);
-		verifyFalse(loginPage.isConfirmEmailAddressTextBoxDisplay());
+		verifyTrue(loginPage.isConfirmEmailAddressTextBoxUnDisplay());
 		
 	}
 

@@ -25,6 +25,10 @@ public class BaseTest {
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
+	
+	public WebDriver getDriver() {
+		return this.driver;
+	}
 	protected WebDriver getBrowserDriver(String browserName) {
 		switch (browserName) {
 		case "chrome":

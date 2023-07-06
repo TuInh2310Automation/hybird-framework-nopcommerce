@@ -3,6 +3,7 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
+		<listener class-name="reportConfig.ReportNGListener"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
 	</listeners>
@@ -10,7 +11,7 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_14_ApplyLogAndReportNG" />
+			<class name="com.nopcommerce.user.Level_15_AttachScreenShotToReportNG" />
 		</classes>
 	</test> <!-- Test -->
 

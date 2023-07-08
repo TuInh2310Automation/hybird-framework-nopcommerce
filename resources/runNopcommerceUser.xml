@@ -6,13 +6,13 @@
 		<listener class-name="reportConfig.ReportNGListener"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
-		<listener class-name="reportConfig.ExtentReportListenerV2"></listener>
+		<listener class-name="reportConfig.ExtentTestListenerV3"></listener>
 	</listeners>
 	<parameter name="url" value="https://demo.nopcommerce.com/" />
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_15_AttachScreenShotToReportNG" />
+			<class name="com.nopcommerce.user.Level_15_AttachScreenShotToReportNG_V3" />
 		</classes>
 	</test> <!-- Test -->
 

@@ -160,3 +160,16 @@
 [2023-07-07 12:51:27,820] Register - Step 07: Click to Register Button
 [2023-07-07 12:51:28,912] Register - Step 08 : Verify register success
 [2023-07-07 12:51:29,063] Register - Step 09 : Go to HomePage
+[2023-07-11 11:45:58,971] Register - Step 01 : Navigate to Login Page
+[2023-07-11 11:46:00,234] Register - Step 02 : email  to FirstName textbox with value is afc7613@mail.vn
+[2023-07-11 11:46:00,522] Register - Step 03 : Enter to password textbox with value is null
+[2023-07-11 14:53:39,384] Precondition - Step 01 : Navigate to Login Page
+[2023-07-11 14:53:41,099] Precondition - Step 02 : Set cookies and reload page
+[2023-07-11 14:54:01,808] Precondition - Step 04: Click to Login Button
+[2023-07-11 14:54:02,422] Precondition - Step 05: Verify 'MyAccount' link is display
+[2023-07-11 14:54:02,608]  -------------------------- PASSED -------------------------- 
+[2023-07-11 14:58:55,547] Precondition - Step 01 : Navigate to Login Page
+[2023-07-11 14:58:57,011] Precondition - Step 02 : Set cookies and reload page
+[2023-07-11 14:59:15,860] Precondition - Step 04: Click to Login Button
+[2023-07-11 14:59:16,374] Precondition - Step 05: Verify 'MyAccount' link is display
+[2023-07-11 14:59:16,670]  -------------------------- PASSED -------------------------- 

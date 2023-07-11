@@ -1,0 +1,5 @@
+[2023-07-11 14:58:55,547] Precondition - Step 01 : Navigate to Login Page
+[2023-07-11 14:58:57,011] Precondition - Step 02 : Set cookies and reload page
+[2023-07-11 14:59:15,860] Precondition - Step 04: Click to Login Button
+[2023-07-11 14:59:16,374] Precondition - Step 05: Verify 'MyAccount' link is display
+[2023-07-11 14:59:16,670]  -------------------------- PASSED -------------------------- 

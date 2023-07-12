@@ -173,3 +173,75 @@
 [2023-07-11 14:59:15,860] Precondition - Step 04: Click to Login Button
 [2023-07-11 14:59:16,374] Precondition - Step 05: Verify 'MyAccount' link is display
 [2023-07-11 14:59:16,670]  -------------------------- PASSED -------------------------- 
+[2023-07-11 21:29:59,269] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 21:30:00,496] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 21:30:00,893] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 21:30:01,545] Pre-Condition - Step 04 : Enter to email textbox with value is afc6663@mail.vn
+[2023-07-11 21:30:01,935] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 21:30:02,210] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 21:30:02,483] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 21:30:03,477] Pre-Condition - Step 08 : Verify register success
+[2023-07-11 23:47:02,375] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 23:47:04,502] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 23:47:05,394] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 23:47:06,114] Pre-Condition - Step 04 : Enter to email textbox with value is afc9772@mail.vn
+[2023-07-11 23:47:07,040] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 23:47:07,938] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 23:47:08,322] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 23:47:10,288] Pre-Condition - Step 08 : Verify register success
+[2023-07-11 23:48:57,160] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 23:48:58,308] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 23:48:58,552] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 23:48:58,786] Pre-Condition - Step 04 : Enter to email textbox with value is afc56@mail.vn
+[2023-07-11 23:48:59,013] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 23:48:59,242] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 23:48:59,469] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 23:49:00,447] Pre-Condition - Step 08 : Verify register success
+[2023-07-11 23:50:42,241] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 23:50:43,852] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 23:50:44,233] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 23:50:44,503] Pre-Condition - Step 04 : Enter to email textbox with value is afc1452@mail.vn
+[2023-07-11 23:50:44,808] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 23:50:45,097] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 23:50:45,512] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 23:51:55,217] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 23:51:56,381] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 23:51:56,660] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 23:51:56,897] Pre-Condition - Step 04 : Enter to email textbox with value is afc4899@mail.vn
+[2023-07-11 23:51:57,132] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 23:51:57,352] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 23:51:57,578] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 23:56:13,274] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-11 23:56:14,379] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-11 23:56:14,590] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-11 23:56:14,766] Pre-Condition - Step 04 : Enter to email textbox with value is afc5022@mail.vn
+[2023-07-11 23:56:14,966] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-11 23:56:15,139] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-11 23:56:15,322] Pre-Condition - Step 07: Click to Register Button
+[2023-07-11 23:56:16,177] Pre-Condition - Step 08 : Verify register success
+[2023-07-12 11:12:55,716] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-12 11:12:56,936] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 11:12:57,224] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 11:12:57,531] Pre-Condition - Step 04 : Enter to email textbox with value is afc706@mail.vn
+[2023-07-12 11:12:57,811] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 11:12:58,067] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 11:12:58,390] Pre-Condition - Step 07: Click to Register Button
+[2023-07-12 11:12:59,322] Pre-Condition - Step 08 : Verify register success
+[2023-07-12 11:42:25,543] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-12 11:42:26,840] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 11:42:27,149] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 11:42:27,381] Pre-Condition - Step 04 : Enter to email textbox with value is afc6015@mail.vn
+[2023-07-12 11:42:27,622] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 11:42:27,852] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 11:42:28,088] Pre-Condition - Step 07: Click to Register Button
+[2023-07-12 11:42:28,979] Pre-Condition - Step 08 : Verify register success
+[2023-07-12 12:21:47,875] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-12 12:21:49,241] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 12:21:49,613] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 12:21:49,946] Pre-Condition - Step 04 : Enter to email textbox with value is afc488@mail.vn
+[2023-07-12 12:21:50,264] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 12:21:50,576] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 12:21:50,899] Pre-Condition - Step 07: Click to Register Button
+[2023-07-12 12:21:51,882] Pre-Condition - Step 08 : Verify register success
+[2023-07-12 12:21:52,483] OS name = windows 10
+[2023-07-12 12:21:52,484] Driver instance name = chromedriver: chrome on windows (12fac5e2f37f421a1263c7141a1522e4)

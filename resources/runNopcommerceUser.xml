@@ -13,7 +13,7 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_16_AllureReport" />
+			<class name="com.nopcommerce.user.Level_19_PatternObject" />
 		</classes>
 	</test> <!-- Test -->
 

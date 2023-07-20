@@ -245,3 +245,285 @@
 [2023-07-12 12:21:51,882] Pre-Condition - Step 08 : Verify register success
 [2023-07-12 12:21:52,483] OS name = windows 10
 [2023-07-12 12:21:52,484] Driver instance name = chromedriver: chrome on windows (12fac5e2f37f421a1263c7141a1522e4)
+[2023-07-12 13:01:15,615] Pre-Condition - Step 01 : Navigate to register Page
+[2023-07-12 13:01:16,788] Pre-Condition - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 13:01:17,007] Pre-Condition - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 13:01:17,193] Pre-Condition - Step 04 : Enter to email textbox with value is afc1031@mail.vn
+[2023-07-12 13:01:17,367] Pre-Condition - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 13:01:17,540] Pre-Condition - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 13:01:17,708] Pre-Condition - Step 07: Click to Register Button
+[2023-07-12 13:01:18,687] Pre-Condition - Step 08 : Verify register success
+[2023-07-12 13:01:19,042] OS name = windows 10
+[2023-07-12 13:01:19,043] Driver instance name = chromedriver: chrome on windows (07550dbec976fd36ce8ee28b468634ff)
+[2023-07-12 16:42:29,058] Register - Step 01 : Navigate to register Page
+[2023-07-12 16:42:30,356] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 16:42:30,705] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 16:42:30,995] Register - Step 04 : Enter to email textbox with value is afc9298@mail.vn
+[2023-07-12 16:42:31,250] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 16:42:31,555] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 16:42:31,847] Register - Step 07: Click to Register Button
+[2023-07-12 16:42:32,785] Register - Step 08 : Verify register success
+[2023-07-12 16:42:32,904] Register - Step 09 : Go to HomePage
+[2023-07-12 16:42:33,764] Register - Step 01 : Navigate to Login Page
+[2023-07-12 16:42:34,323] Register - Step 02 : email  to FirstName textbox with value is afc9298@mail.vn
+[2023-07-12 16:42:34,542] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-12 16:42:34,766] Register - Step 04: Click to Login Button
+[2023-07-12 16:42:35,707] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-12 16:42:35,849]  -------------------------- PASSED -------------------------- 
+[2023-07-12 16:42:35,850] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-12 16:42:36,453] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-12 16:42:36,582]  -------------------------- PASSED -------------------------- 
+[2023-07-12 16:44:19,513] Register - Step 01 : Navigate to register Page
+[2023-07-12 16:44:20,762] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 16:44:21,066] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 16:44:21,323] Register - Step 04 : Enter to email textbox with value is afc7757@mail.vn
+[2023-07-12 16:44:21,590] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 16:44:21,819] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 16:44:22,084] Register - Step 07: Click to Register Button
+[2023-07-12 16:44:23,059] Register - Step 08 : Verify register success
+[2023-07-12 16:44:23,167] Register - Step 09 : Go to HomePage
+[2023-07-12 16:44:23,961] Register - Step 01 : Navigate to Login Page
+[2023-07-12 16:44:24,587] Register - Step 02 : email  to FirstName textbox with value is afc7757@mail.vn
+[2023-07-12 16:44:24,821] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-12 16:44:25,068] Register - Step 04: Click to Login Button
+[2023-07-12 16:44:25,993] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-12 16:44:26,155]  -------------------------- PASSED -------------------------- 
+[2023-07-12 16:44:26,155] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-12 16:44:26,728] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-12 16:44:26,853]  -------------------------- PASSED -------------------------- 
+[2023-07-12 16:55:44,787] Register - Step 01 : Navigate to register Page
+[2023-07-12 16:55:45,923] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-12 16:55:46,152] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-12 16:55:46,346] Register - Step 04 : Enter to email textbox with value is afc9107@mail.vn
+[2023-07-12 16:55:46,519] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-12 16:55:46,712] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-12 16:55:46,941] Register - Step 07: Click to Register Button
+[2023-07-12 16:55:47,808] Register - Step 08 : Verify register success
+[2023-07-12 16:55:47,913] Register - Step 09 : Go to HomePage
+[2023-07-12 16:55:48,585] Register - Step 01 : Navigate to Login Page
+[2023-07-12 16:55:49,103] Register - Step 02 : email  to FirstName textbox with value is afc9107@mail.vn
+[2023-07-12 16:55:49,282] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-12 16:55:49,445] Register - Step 04: Click to Login Button
+[2023-07-12 16:55:50,284] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-12 16:55:50,409]  -------------------------- PASSED -------------------------- 
+[2023-07-12 16:55:50,410] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-12 16:55:50,936] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-12 16:55:51,020]  -------------------------- PASSED -------------------------- 
+[2023-07-13 15:05:19,749] Register - Step 01 : Navigate to register Page
+[2023-07-13 15:05:23,238] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 15:05:23,800] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 15:05:24,299] Register - Step 04 : Enter to email textbox with value is afc7190@mail.vn
+[2023-07-13 15:05:24,746] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-13 15:05:25,086] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-13 15:05:25,495] Register - Step 07: Click to Register Button
+[2023-07-13 15:05:27,076] Register - Step 08 : Verify register success
+[2023-07-13 15:05:27,279] Register - Step 09 : Go to HomePage
+[2023-07-13 15:05:28,593] Register - Step 01 : Navigate to Login Page
+[2023-07-13 15:05:29,329] Register - Step 02 : email  to FirstName textbox with value is afc7190@mail.vn
+[2023-07-13 15:05:29,671] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 15:05:29,994] Register - Step 04: Click to Login Button
+[2023-07-13 15:55:42,190] Register - Step 01 : Navigate to register Page
+[2023-07-13 15:55:43,306] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 15:55:43,513] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 15:56:04,544] Register - Step 01 : Navigate to Login Page
+[2023-07-13 15:56:05,141] Register - Step 02 : email  to FirstName textbox with value is afc6216@mail.vn
+[2023-07-13 15:56:05,388] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 15:56:05,634] Register - Step 04: Click to Login Button
+[2023-07-13 15:57:45,574] Register - Step 01 : Navigate to register Page
+[2023-07-13 15:57:46,733] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 15:57:46,949] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 15:58:07,855] Register - Step 01 : Navigate to Login Page
+[2023-07-13 15:58:08,417] Register - Step 02 : email  to FirstName textbox with value is afc6714@mail.vn
+[2023-07-13 15:58:08,615] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 15:58:08,807] Register - Step 04: Click to Login Button
+[2023-07-13 16:07:50,024] Register - Step 01 : Navigate to register Page
+[2023-07-13 16:07:53,735] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 16:07:53,954] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 16:08:15,193] Register - Step 01 : Navigate to Login Page
+[2023-07-13 16:08:15,942] Register - Step 02 : email  to FirstName textbox with value is afc8517@mail.vn
+[2023-07-13 16:08:16,150] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 16:08:16,358] Register - Step 04: Click to Login Button
+[2023-07-13 16:13:37,754] Register - Step 01 : Navigate to register Page
+[2023-07-13 16:13:38,547] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 16:13:38,870] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 16:14:00,066] Register - Step 01 : Navigate to Login Page
+[2023-07-13 16:14:00,714] Register - Step 02 : email  to FirstName textbox with value is afc5262@mail.vn
+[2023-07-13 16:14:00,939] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 16:14:01,146] Register - Step 04: Click to Login Button
+[2023-07-13 16:14:28,899] Register - Step 01 : Navigate to register Page
+[2023-07-13 16:14:30,238] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 16:14:30,508] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 16:14:30,994] Register - Step 04 : Select birthday 23/January/1990
+[2023-07-13 16:14:30,995] Register - Step 04 : Enter to email textbox with value is afc1092@mail.vn
+[2023-07-13 16:14:31,241] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-13 16:14:31,464] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-13 16:14:31,701] Register - Step 07: Click to Register Button
+[2023-07-13 16:14:32,767] Register - Step 08 : Verify register success
+[2023-07-13 16:14:32,875] Register - Step 09 : Go to HomePage
+[2023-07-13 16:14:33,695] Register - Step 01 : Navigate to Login Page
+[2023-07-13 16:14:34,382] Register - Step 02 : email  to FirstName textbox with value is afc1092@mail.vn
+[2023-07-13 16:14:34,608] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 16:14:34,835] Register - Step 04: Click to Login Button
+[2023-07-13 16:19:07,891] Register - Step 01 : Navigate to register Page
+[2023-07-13 16:19:09,565] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 16:19:10,012] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 16:19:31,375] Register - Step 01 : Navigate to Login Page
+[2023-07-13 16:19:31,975] Register - Step 02 : email  to FirstName textbox with value is afc5217@mail.vn
+[2023-07-13 16:19:32,198] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 16:19:32,418] Register - Step 04: Click to Login Button
+[2023-07-13 16:19:33,004] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-13 16:26:36,286] Register - Step 01 : Navigate to register Page
+[2023-07-13 16:26:37,606] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-13 16:26:37,861] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-13 16:26:38,682] Register - Step 04 : Select birthday 23/January/1990
+[2023-07-13 16:26:38,683] Register - Step 04 : Enter to email textbox with value is afc1519@mail.vn
+[2023-07-13 16:26:38,883] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-13 16:26:39,083] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-13 16:26:39,282] Register - Step 07: Click to Register Button
+[2023-07-13 16:26:40,245] Register - Step 08 : Verify register success
+[2023-07-13 16:26:40,337] Register - Step 09 : Go to HomePage
+[2023-07-13 16:26:41,241] Register - Step 01 : Navigate to Login Page
+[2023-07-13 16:26:41,837] Register - Step 02 : email  to FirstName textbox with value is afc1519@mail.vn
+[2023-07-13 16:26:42,025] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-13 16:26:42,247] Register - Step 04: Click to Login Button
+[2023-07-13 16:26:43,216] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-13 16:26:43,335]  -------------------------- PASSED -------------------------- 
+[2023-07-13 16:26:43,336] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-13 16:26:43,916] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-13 16:26:43,999]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:02:10,224] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:02:11,520] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:02:11,710] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:02:12,425] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:02:12,552] Register - Step 04 : Enter to email textbox with value is afc1343@mail.vn
+[2023-07-14 01:02:12,716] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:02:12,894] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:02:13,065] Register - Step 07: Click to Register Button
+[2023-07-14 01:02:13,923] Register - Step 08 : Verify register success
+[2023-07-14 01:02:14,014] Register - Step 09 : Go to HomePage
+[2023-07-14 01:02:14,693] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:02:15,184] Register - Step 02 : email  to FirstName textbox with value is afc1343@mail.vn
+[2023-07-14 01:02:15,328] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:02:15,478] Register - Step 04: Click to Login Button
+[2023-07-14 01:02:16,339] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:02:16,429]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:02:16,429] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:02:16,956] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:02:17,035]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:02:32,659] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:02:33,909] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:02:34,100] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:02:34,815] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:02:34,943] Register - Step 04 : Enter to email textbox with value is afc4012@mail.vn
+[2023-07-14 01:02:35,114] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:02:35,287] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:02:35,463] Register - Step 07: Click to Register Button
+[2023-07-14 01:02:36,275] Register - Step 08 : Verify register success
+[2023-07-14 01:02:36,361] Register - Step 09 : Go to HomePage
+[2023-07-14 01:02:37,021] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:02:37,526] Register - Step 02 : email  to FirstName textbox with value is afc4012@mail.vn
+[2023-07-14 01:02:37,709] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:02:37,883] Register - Step 04: Click to Login Button
+[2023-07-14 01:02:38,718] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:02:38,824]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:02:38,824] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:02:39,336] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:02:39,425]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:14:26,705] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:14:28,006] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:14:28,194] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:14:28,880] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:14:29,010] Register - Step 04 : Enter to email textbox with value is afc3884@mail.vn
+[2023-07-14 01:14:29,182] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:14:29,346] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:14:29,523] Register - Step 07: Click to Register Button
+[2023-07-14 01:14:30,398] Register - Step 08 : Verify register success
+[2023-07-14 01:14:30,484] Register - Step 09 : Go to HomePage
+[2023-07-14 01:14:31,155] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:14:31,778] Register - Step 02 : email  to FirstName textbox with value is afc3884@mail.vn
+[2023-07-14 01:14:31,935] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:14:32,084] Register - Step 04: Click to Login Button
+[2023-07-14 01:14:32,958] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:14:33,049]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:14:33,049] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:14:33,568] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:14:33,654]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:15:40,442] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:15:41,207] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:15:41,415] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:15:42,139] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:15:42,139] Register - Step 04 : Enter to email textbox with value is afc8214@mail.vn
+[2023-07-14 01:15:42,314] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:15:42,486] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:15:42,658] Register - Step 07: Click to Register Button
+[2023-07-14 01:15:43,537] Register - Step 08 : Verify register success
+[2023-07-14 01:15:43,617] Register - Step 09 : Go to HomePage
+[2023-07-14 01:15:44,328] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:15:44,846] Register - Step 02 : email  to FirstName textbox with value is afc8214@mail.vn
+[2023-07-14 01:15:45,036] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:15:45,226] Register - Step 04: Click to Login Button
+[2023-07-14 01:15:46,106] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:15:46,230]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:15:46,230] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:15:46,746] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:15:46,836]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:16:18,167] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:16:19,465] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:16:19,666] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:16:20,419] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:16:20,553] Register - Step 04 : Enter to email textbox with value is afc2760@mail.vn
+[2023-07-14 01:16:20,746] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:16:20,957] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:16:21,168] Register - Step 07: Click to Register Button
+[2023-07-14 01:16:22,046] Register - Step 08 : Verify register success
+[2023-07-14 01:16:22,132] Register - Step 09 : Go to HomePage
+[2023-07-14 01:16:22,827] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:16:23,353] Register - Step 02 : email  to FirstName textbox with value is afc2760@mail.vn
+[2023-07-14 01:16:23,533] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:16:23,734] Register - Step 04: Click to Login Button
+[2023-07-14 01:16:24,613] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:16:24,726]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:16:24,726] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:16:25,269] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:16:25,362]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:17:02,775] Register - Step 01 : Navigate to register Page
+[2023-07-14 01:17:04,104] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 01:17:04,312] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 01:17:05,071] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 01:17:05,170] Register - Step 04 : Enter to email textbox with value is afc5330@mail.vn
+[2023-07-14 01:17:05,381] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 01:17:05,588] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 01:17:05,789] Register - Step 07: Click to Register Button
+[2023-07-14 01:17:06,660] Register - Step 08 : Verify register success
+[2023-07-14 01:17:06,747] Register - Step 09 : Go to HomePage
+[2023-07-14 01:17:07,466] Register - Step 01 : Navigate to Login Page
+[2023-07-14 01:17:08,002] Register - Step 02 : email  to FirstName textbox with value is afc5330@mail.vn
+[2023-07-14 01:17:08,200] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 01:17:08,388] Register - Step 04: Click to Login Button
+[2023-07-14 01:17:09,241] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 01:17:09,359]  -------------------------- PASSED -------------------------- 
+[2023-07-14 01:17:09,360] Register - Step 06: Navigate to 'My Account' Page
+[2023-07-14 01:17:09,876] Register - Step 07: Verify  'My Account' Page is displayed
+[2023-07-14 01:17:09,967]  -------------------------- PASSED -------------------------- 
+[2023-07-14 13:19:01,051] Register - Step 01 : Navigate to register Page
+[2023-07-14 13:19:02,648] Register - Step 02 : Enter to FirstName textbox with value is Automation
+[2023-07-14 13:19:02,910] Register - Step 03 : Enter to LastName textbox with value is FC
+[2023-07-14 13:19:04,162] Register - Step 04 : Select birthday 23/October/1990
+[2023-07-14 13:19:04,265] Register - Step 04 : Enter to email textbox with value is afc2148@mail.vn
+[2023-07-14 13:19:04,483] Register - Step 05 : Enter to password textbox with value is 123456
+[2023-07-14 13:19:04,715] Register - Step 06 : Enter to confirmPw textbox with value is 123456
+[2023-07-14 13:19:04,922] Register - Step 07: Click to Register Button
+[2023-07-14 13:19:05,848] Register - Step 08 : Verify register success
+[2023-07-14 13:19:05,961] Register - Step 09 : Go to HomePage
+[2023-07-14 13:19:06,821] Register - Step 01 : Navigate to Login Page
+[2023-07-14 13:19:07,430] Register - Step 02 : email  to Email textbox with value is afc2148@mail.vn
+[2023-07-14 13:19:07,710] Register - Step 03 : Enter to password textbox with value is 123456
+[2023-07-14 13:19:07,924] Register - Step 04: Click to Login Button
+[2023-07-14 13:19:08,847] Register - Step 05: Verify 'MyAccount' link is display
+[2023-07-14 13:19:08,972]  -------------------------- PASSED -------------------------- 
+[2023-07-14 13:19:08,983] My Account - Step 01: Navigate to 'My Account' Page
+[2023-07-14 13:19:09,601] My Account - Step 02: Verify  'My Account' Page is displayed
+[2023-07-14 13:19:09,712]  -------------------------- PASSED -------------------------- 
+[2023-07-14 13:19:09,712] My Account - Step 03: Verify  'My Account' Page is displayed
+[2023-07-14 13:19:09,787] My Account - Step 04: Verify  lastname is displayed correct
+[2023-07-14 13:19:09,883] My Account - Step 05: Verify  email is displayed correct

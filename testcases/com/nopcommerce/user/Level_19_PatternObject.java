@@ -55,6 +55,7 @@ public class Level_19_PatternObject extends BaseTest {
 
 	}
 
+
 	@Test
 	public void User_01_Register() {
 		log.info("Register - Step 01 : Navigate to register Page");
@@ -130,6 +131,7 @@ public class Level_19_PatternObject extends BaseTest {
 		log.info("My Account - Step 05: Verify  email is displayed correct");
 		Assert.assertEquals(customerInfoPage.getTextBoxValueById(driver, "Email"), email);
 	}
+	
 	public int generateRandomNumber() {
 		return new Random().nextInt(9999);
 	}

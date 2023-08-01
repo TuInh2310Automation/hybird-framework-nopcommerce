@@ -16,15 +16,6 @@ public class LoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	private void sleepInSecond(long timeInSecond) {
-		try {
-			Thread.sleep(timeInSecond * 1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
 	public void clickToCreateNewAccountButton() {
 		// TODO Auto-generated method stub
 		waitForElementVisible(driver, LoginPageUI.CREATE_NEW_ACCOUNT_BUTTON);

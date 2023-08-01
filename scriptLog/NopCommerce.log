@@ -527,3 +527,804 @@
 [2023-07-14 13:19:09,712] My Account - Step 03: Verify  'My Account' Page is displayed
 [2023-07-14 13:19:09,787] My Account - Step 04: Verify  lastname is displayed correct
 [2023-07-14 13:19:09,883] My Account - Step 05: Verify  email is displayed correct
+[2023-07-23 01:45:12,394] Precondition - Step 01 : Open browser and admin URL
+[2023-07-23 01:45:20,144] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-23 01:45:20,338] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-23 01:45:20,458] Precondition - Step 04 : Click to login button
+[2023-07-23 01:45:26,165] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-23 01:45:28,807] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-23 01:45:33,190] Create Post - Step 03 : Enter post title Live Coding Title1407
+[2023-07-23 01:45:36,335] Create Post - Step 04: Enter post body Live Coding Body1407
+[2023-07-23 01:45:39,212] Create Post - Step 06 : Click to Publish button
+[2023-07-23 01:45:39,664] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-23 01:45:41,330] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-23 01:45:44,238]  -------------------------- PASSED -------------------------- 
+[2023-07-23 01:45:44,442] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 01:33:06,680] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 01:33:14,688] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 01:33:14,817] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 01:33:14,909] Precondition - Step 04 : Click to login button
+[2023-07-28 01:33:19,536] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 01:33:21,943] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 01:33:26,773] Create Post - Step 03 : Enter post title Live Coding Title401
+[2023-07-28 01:33:28,378] Create Post - Step 04: Enter post body Live Coding Body401
+[2023-07-28 01:33:30,397] Create Post - Step 06 : Click to Publish button
+[2023-07-28 01:33:30,742] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 01:33:31,189] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 01:33:33,794]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:33:34,037] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 01:33:36,769] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 01:33:37,066] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 01:33:39,906] Search Post - Step 04 : Verify Search table contains Live Coding Title401
+[2023-07-28 01:42:22,992] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 01:42:28,867] Precondition - RANDOM NUMBER3099
+[2023-07-28 01:42:28,867] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 01:42:29,013] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 01:42:29,105] Precondition - Step 04 : Click to login button
+[2023-07-28 01:42:32,653] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 01:42:35,034] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 01:42:39,602] Create Post - Step 03 : Enter post title Live Coding Title3099
+[2023-07-28 01:42:40,754] Create Post - Step 04: Enter post body Live Coding Body3099
+[2023-07-28 01:42:43,259] Create Post - Step 06 : Click to Publish button
+[2023-07-28 01:42:43,651] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 01:42:44,090] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 01:42:47,366]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:42:47,530] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 01:42:50,347] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 01:42:50,651] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 01:42:53,580] Search Post - Step 04 : Verify Search table contains Live Coding Title3099
+[2023-07-28 01:46:00,723] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 01:46:05,082] Precondition - RANDOM NUMBER6224
+[2023-07-28 01:46:05,083] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 01:46:05,226] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 01:46:05,321] Precondition - Step 04 : Click to login button
+[2023-07-28 01:46:08,304] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 01:46:10,436] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 01:46:14,534] Create Post - Step 03 : Enter post title Live Coding Title6224
+[2023-07-28 01:46:16,005] Create Post - Step 04: Enter post body Live Coding Body6224
+[2023-07-28 01:46:18,065] Create Post - Step 06 : Click to Publish button
+[2023-07-28 01:46:18,441] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 01:46:19,478] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 01:46:22,386]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:46:22,545] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 01:46:25,353] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 01:46:25,621] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 01:46:28,524] Search Post - Step 04 : Verify Search table contains Live Coding Title6224
+[2023-07-28 01:46:28,727]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:46:28,728] Search Post - Step 05 : Verify Search table contains 
+[2023-07-28 01:49:15,408] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 01:49:20,233] Precondition - RANDOM NUMBER5792
+[2023-07-28 01:49:20,233] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 01:49:20,379] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 01:49:20,470] Precondition - Step 04 : Click to login button
+[2023-07-28 01:49:24,009] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 01:49:26,449] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 01:49:30,698] Create Post - Step 03 : Enter post title Live Coding Title5792
+[2023-07-28 01:49:32,099] Create Post - Step 04: Enter post body Live Coding Body5792
+[2023-07-28 01:49:34,729] Create Post - Step 06 : Click to Publish button
+[2023-07-28 01:49:35,088] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 01:49:36,067] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 01:49:39,202]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:49:39,380] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 01:49:42,263] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 01:49:42,595] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 01:49:45,607] Search Post - Step 04 : Verify Search table contains Live Coding Title5792
+[2023-07-28 01:49:45,817]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:49:45,817] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 01:49:45,976]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:49:45,976] Search Post - Step 06 : Open End user site
+[2023-07-28 01:49:48,231] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 01:49:48,382]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:49:48,499]  -------------------------- PASSED -------------------------- 
+[2023-07-28 01:49:48,623]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:11,278] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 02:02:17,306] Precondition - RANDOM NUMBER2718
+[2023-07-28 02:02:17,306] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 02:02:17,435] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 02:02:17,529] Precondition - Step 04 : Click to login button
+[2023-07-28 02:02:20,644] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 02:02:22,924] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 02:02:27,351] Create Post - Step 03 : Enter post title Live Coding Title2718
+[2023-07-28 02:02:29,887] Create Post - Step 04: Enter post body Live Coding Body2718
+[2023-07-28 02:02:32,303] Create Post - Step 06 : Click to Publish button
+[2023-07-28 02:02:32,739] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 02:02:34,195] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 02:02:36,712]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:36,910] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 02:02:39,906] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 02:02:40,241] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 02:02:43,426] Search Post - Step 04 : Verify Search table contains Live Coding Title2718
+[2023-07-28 02:02:43,592]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:43,592] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 02:02:43,825]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:43,825] Search Post - Step 06 : Open End user site
+[2023-07-28 02:02:46,425] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 02:02:46,570]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:46,725]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:46,884]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:47,028]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:47,028] Search Post - Step 08 : Click to post title
+[2023-07-28 02:02:49,629]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:49,751]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:49,893]  -------------------------- PASSED -------------------------- 
+[2023-07-28 02:02:50,019]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:05,340] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:18:16,017] Precondition - RANDOM NUMBER3705
+[2023-07-28 23:18:16,018] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:18:16,354] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:18:16,595] Precondition - Step 04 : Click to login button
+[2023-07-28 23:18:23,165] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:18:26,230] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:18:34,574] Create Post - Step 03 : Enter post title Live Coding Title3705
+[2023-07-28 23:18:37,851] Create Post - Step 04: Enter post body Live Coding Body3705
+[2023-07-28 23:18:40,002] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:18:40,501] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:18:43,988] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:18:46,530]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:46,879] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:18:50,243] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:18:50,679] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:18:54,330] Search Post - Step 04 : Verify Search table contains Live Coding Title3705
+[2023-07-28 23:18:54,548]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:54,548] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:18:54,738]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:54,739] Search Post - Step 06 : Open End user site
+[2023-07-28 23:18:58,965] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:18:59,265]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:59,454]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:59,612]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:59,758]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:18:59,759] Search Post - Step 08 : Click to post title
+[2023-07-28 23:19:04,327]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:19:04,541]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:19:04,729]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:19:04,870]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:19:04,882] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:19:09,200] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:19:41,336] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:19:50,293] Precondition - RANDOM NUMBER9052
+[2023-07-28 23:19:50,294] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:19:50,495] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:19:50,643] Precondition - Step 04 : Click to login button
+[2023-07-28 23:19:55,301] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:19:58,906] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:20:03,937] Create Post - Step 03 : Enter post title Live Coding Title9052
+[2023-07-28 23:20:07,154] Create Post - Step 04: Enter post body Live Coding Body9052
+[2023-07-28 23:20:09,652] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:20:10,118] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:20:11,752] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:20:15,005]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:15,218] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:20:18,522] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:20:18,915] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:20:22,328] Search Post - Step 04 : Verify Search table contains Live Coding Title9052
+[2023-07-28 23:20:22,524]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:22,524] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:20:22,767]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:22,767] Search Post - Step 06 : Open End user site
+[2023-07-28 23:20:26,491] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:20:26,694]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:26,855]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:27,100]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:27,277]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:27,277] Search Post - Step 08 : Click to post title
+[2023-07-28 23:20:30,142]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:30,263]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:30,409]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:30,532]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:20:30,547] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:20:34,132] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:20:51,265] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:21:03,425] Precondition - RANDOM NUMBER6933
+[2023-07-28 23:21:03,425] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:21:03,699] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:21:04,007] Precondition - Step 04 : Click to login button
+[2023-07-28 23:21:11,159] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:21:15,789] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:21:24,287] Create Post - Step 03 : Enter post title Live Coding Title6933
+[2023-07-28 23:21:32,155] Create Post - Step 04: Enter post body Live Coding Body6933
+[2023-07-28 23:21:34,033] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:21:34,427] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:21:37,764] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:21:42,004]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:42,266] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:21:45,817] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:21:46,245] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:21:50,262] Search Post - Step 04 : Verify Search table contains Live Coding Title6933
+[2023-07-28 23:21:50,451]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:50,452] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:21:50,631]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:50,632] Search Post - Step 06 : Open End user site
+[2023-07-28 23:21:54,269] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:21:54,451]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:54,617]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:54,770]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:54,911]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:54,911] Search Post - Step 08 : Click to post title
+[2023-07-28 23:21:57,788]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:57,919]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:58,062]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:58,204]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:21:58,216] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:22:02,509] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:22:02,954] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:22:03,081] Precondition - Step 04 : Click to login button
+[2023-07-28 23:22:05,698] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:31:13,673] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:31:20,054] Precondition - RANDOM NUMBER3105
+[2023-07-28 23:31:20,055] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:31:20,198] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:31:20,290] Precondition - Step 04 : Click to login button
+[2023-07-28 23:31:24,305] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:31:27,674] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:31:31,682] Create Post - Step 03 : Enter post title Live Coding Title3105
+[2023-07-28 23:31:32,679] Create Post - Step 04: Enter post body Live Coding Body3105
+[2023-07-28 23:31:35,448] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:31:35,808] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:31:36,579] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:31:39,901]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:40,073] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:31:43,009] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:31:43,358] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:31:46,347] Search Post - Step 04 : Verify Search table contains Live Coding Title3105
+[2023-07-28 23:31:46,512]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:46,513] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:31:46,716]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:46,716] Search Post - Step 06 : Open End user site
+[2023-07-28 23:31:48,989] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:31:49,150]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:49,274]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:49,415]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:49,545]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:49,545] Search Post - Step 08 : Click to post title
+[2023-07-28 23:31:52,062]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:52,182]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:52,309]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:52,434]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:31:52,447] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:31:54,963] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-28 23:31:55,203] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-28 23:31:55,297] Precondition - Step 04 : Click to login button
+[2023-07-28 23:31:56,791] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:35:31,415] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:35:37,261] Precondition - RANDOM NUMBER3348
+[2023-07-28 23:35:37,261] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:35:37,390] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:35:37,484] Precondition - Step 04 : Click to login button
+[2023-07-28 23:35:40,936] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:35:42,988] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:35:47,041] Create Post - Step 03 : Enter post title Live Coding Title3348
+[2023-07-28 23:35:48,675] Create Post - Step 04: Enter post body Live Coding Body3348
+[2023-07-28 23:35:50,983] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:35:51,321] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:35:52,443] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:35:55,517]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:35:55,687] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:35:58,779] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:35:59,100] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:36:02,318] Search Post - Step 04 : Verify Search table contains Live Coding Title3348
+[2023-07-28 23:36:02,522]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:02,522] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:36:02,711]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:02,711] Search Post - Step 06 : Open End user site
+[2023-07-28 23:36:05,169] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:36:05,346]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:05,482]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:05,606]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:05,745]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:05,745] Search Post - Step 08 : Click to post title
+[2023-07-28 23:36:08,278]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:08,395]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:08,520]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:08,633]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:36:08,642] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:36:11,232] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-28 23:36:11,471] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-28 23:36:11,564] Precondition - Step 04 : Click to login button
+[2023-07-28 23:36:12,998] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:37:40,962] Precondition - Step 01 : Open browser and admin URL
+[2023-07-28 23:37:47,479] Precondition - RANDOM NUMBER9972
+[2023-07-28 23:37:47,479] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-28 23:37:47,749] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-28 23:37:47,970] Precondition - Step 04 : Click to login button
+[2023-07-28 23:37:51,831] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-28 23:37:54,408] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-28 23:37:58,723] Create Post - Step 03 : Enter post title Live Coding Title9972
+[2023-07-28 23:37:59,869] Create Post - Step 04: Enter post body Live Coding Body9972
+[2023-07-28 23:38:03,028] Create Post - Step 06 : Click to Publish button
+[2023-07-28 23:38:03,305] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-28 23:38:04,122] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-28 23:38:07,387]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:07,571] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-28 23:38:10,765] Search Post - Step 02 : Enter to Search Post
+[2023-07-28 23:38:11,136] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-28 23:38:14,535] Search Post - Step 04 : Verify Search table contains Live Coding Title9972
+[2023-07-28 23:38:14,695]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:14,695] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-28 23:38:14,868]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:14,868] Search Post - Step 06 : Open End user site
+[2023-07-28 23:38:17,191] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-28 23:38:17,354]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:17,471]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:17,614]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:17,759]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:17,759] Search Post - Step 08 : Click to post title
+[2023-07-28 23:38:20,416]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:20,527]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:20,643]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:20,769]  -------------------------- PASSED -------------------------- 
+[2023-07-28 23:38:20,778] Edit Post - Step 01 :Open Admin site
+[2023-07-28 23:38:24,589] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-28 23:38:24,993] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-28 23:38:25,200] Precondition - Step 04 : Click to login button
+[2023-07-28 23:38:28,617] Edit Post - Step 02 : Click to Post menu link
+[2023-07-28 23:38:31,246] Edit Post - Step 03 :Enter to Search textbox
+[2023-07-28 23:38:31,596] Search Post - Step 04 : Click to 'Search Post' button
+[2023-07-28 23:38:34,815] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-07-28 23:38:39,266] Edit Post - Step 06 :Enter to Post titleEdit Coding Title9972
+[2023-07-28 23:38:43,037] Edit Post - Step 04: Enter post body Edit Coding Body9972
+[2023-07-29 00:29:06,608] Precondition - Step 01 : Open browser and admin URL
+[2023-07-29 00:29:13,168] Precondition - RANDOM NUMBER4248
+[2023-07-29 00:29:13,168] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-29 00:29:13,398] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-29 00:29:13,585] Precondition - Step 04 : Click to login button
+[2023-07-29 00:29:16,847] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-29 00:29:18,792] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-29 00:29:22,661] Create Post - Step 03 : Enter post title Live Coding Title4248
+[2023-07-29 00:29:23,777] Create Post - Step 04: Enter post body Live Coding Body4248
+[2023-07-29 00:29:25,874] Create Post - Step 06 : Click to Publish button
+[2023-07-29 00:29:26,276] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:29:26,658] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-29 00:29:29,901]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:30,108] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:29:32,931] Search Post - Step 02 : Enter to Search Post
+[2023-07-29 00:29:33,248] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:29:36,082] Search Post - Step 04 : Verify Search table contains Live Coding Title4248
+[2023-07-29 00:29:36,240]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:36,240] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:29:36,387]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:36,387] Search Post - Step 06 : Open End user site
+[2023-07-29 00:29:38,592] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:29:38,730]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:38,850]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:38,975]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:39,104]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:39,104] Search Post - Step 08 : Click to post title
+[2023-07-29 00:29:41,540]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:41,662]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:41,775]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:41,887]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:29:41,896] Edit Post - Step 01 :Open Admin site
+[2023-07-29 00:29:44,420] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-29 00:29:44,814] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-29 00:29:45,004] Precondition - Step 04 : Click to login button
+[2023-07-29 00:29:48,137] Edit Post - Step 02 : Click to Post menu link
+[2023-07-29 00:29:50,297] Edit Post - Step 03 :Enter to Search textbox
+[2023-07-29 00:29:50,595] Search Post - Step 04 : Click to 'Search Post' button
+[2023-07-29 00:29:53,567] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-07-29 00:29:57,581] Edit Post - Step 06 :Enter to Post titleEdit Coding Title4248
+[2023-07-29 00:29:59,213] Edit Post - Step 04: Enter post body Edit Coding Body4248
+[2023-07-29 00:30:01,948] Edit Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:34:43,833] Precondition - Step 01 : Open browser and admin URL
+[2023-07-29 00:34:48,841] Precondition - RANDOM NUMBER8551
+[2023-07-29 00:34:48,841] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-29 00:34:49,096] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-29 00:34:49,307] Precondition - Step 04 : Click to login button
+[2023-07-29 00:34:53,020] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-29 00:34:55,726] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-29 00:35:00,304] Create Post - Step 03 : Enter post title Live Coding Title8551
+[2023-07-29 00:35:01,714] Create Post - Step 04: Enter post body Live Coding Body8551
+[2023-07-29 00:35:04,187] Create Post - Step 06 : Click to Publish button
+[2023-07-29 00:35:04,543] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:35:04,986] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-29 00:35:08,581]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:08,750] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:35:11,792] Search Post - Step 02 : Enter to Search Post
+[2023-07-29 00:35:12,134] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:35:15,305] Search Post - Step 04 : Verify Search table contains Live Coding Title8551
+[2023-07-29 00:35:15,554]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:15,554] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:35:15,711]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:15,711] Search Post - Step 06 : Open End user site
+[2023-07-29 00:35:17,825] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:35:17,994]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:18,128]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:18,272]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:18,411]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:18,411] Search Post - Step 08 : Click to post title
+[2023-07-29 00:35:20,974]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:21,088]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:21,203]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:21,341]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:35:21,352] Edit Post - Step 01 :Open Admin site
+[2023-07-29 00:35:25,072] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-29 00:35:25,523] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-29 00:35:25,731] Precondition - Step 04 : Click to login button
+[2023-07-29 00:35:29,123] Edit Post - Step 02 : Click to Post menu link
+[2023-07-29 00:35:32,184] Edit Post - Step 03 :Enter to Search textbox
+[2023-07-29 00:35:32,543] Search Post - Step 04 : Click to 'Search Post' button
+[2023-07-29 00:35:35,775] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-07-29 00:35:40,123] Edit Post - Step 06 :Enter to Post titleEdit Coding Title8551
+[2023-07-29 00:35:41,728] Edit Post - Step 04: Enter post body Edit Coding Body8551
+[2023-07-29 00:35:44,597] Edit Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:41:06,779] Precondition - Step 01 : Open browser and admin URL
+[2023-07-29 00:41:12,845] Precondition - RANDOM NUMBER7014
+[2023-07-29 00:41:12,846] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-29 00:41:13,102] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-29 00:41:13,324] Precondition - Step 04 : Click to login button
+[2023-07-29 00:41:16,895] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-29 00:41:19,619] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-29 00:41:25,362] Create Post - Step 03 : Enter post title Live Coding Title7014
+[2023-07-29 00:41:27,428] Create Post - Step 04: Enter post body Live Coding Body7014
+[2023-07-29 00:41:30,731] Create Post - Step 06 : Click to Publish button
+[2023-07-29 00:41:31,282] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:41:32,405] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-29 00:41:36,339]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:36,606] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:41:40,046] Search Post - Step 02 : Enter to Search Post
+[2023-07-29 00:41:40,446] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:41:44,344] Search Post - Step 04 : Verify Search table contains Live Coding Title7014
+[2023-07-29 00:41:44,599]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:44,600] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:41:44,783]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:44,784] Search Post - Step 06 : Open End user site
+[2023-07-29 00:41:47,726] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:41:47,900]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:48,038]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:48,239]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:48,395]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:48,395] Search Post - Step 08 : Click to post title
+[2023-07-29 00:41:51,425]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:51,560]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:51,698]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:51,831]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:41:51,842] Edit Post - Step 01 :Open Admin site
+[2023-07-29 00:41:54,897] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-29 00:41:55,339] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-29 00:41:55,559] Precondition - Step 04 : Click to login button
+[2023-07-29 00:41:59,099] Edit Post - Step 02 : Click to Post menu link
+[2023-07-29 00:42:01,570] Edit Post - Step 03 :Enter to Search textbox
+[2023-07-29 00:42:01,929] Search Post - Step 04 : Click to 'Search Post' button
+[2023-07-29 00:42:05,277] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-07-29 00:42:10,196] Edit Post - Step 06 :Enter to Post titleEdit Coding Title7014
+[2023-07-29 00:42:11,878] Edit Post - Step 04: Enter post body Edit Coding Body7014
+[2023-07-29 00:42:14,820] Edit Post - Step 07 : Click to update Publish button
+[2023-07-29 00:42:15,143] Edit Post - Step 08 : Verify 'Post Updated' message is displayed
+[2023-07-29 00:42:17,745]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:17,745] Edit Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:42:21,085] Edit Post - Step 02 : Enter to Search Post
+[2023-07-29 00:42:21,448] Edit Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:42:25,907] Edit Post - Step 04 : Verify Search table contains Edit Coding Title7014
+[2023-07-29 00:42:26,081]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:26,081] Edit Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:42:26,252]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:26,252] Edit Post - Step 06 : Open End user site
+[2023-07-29 00:42:28,585] Edit Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:42:28,741]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:28,858]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:28,982]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:29,090]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:29,090] Edit Post - Step 08 : Click to post title
+[2023-07-29 00:42:31,603]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:42:31,705]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:45:37,394] Precondition - Step 01 : Open browser and admin URL
+[2023-07-29 00:45:43,899] Precondition - RANDOM NUMBER3116
+[2023-07-29 00:45:43,899] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-07-29 00:45:44,182] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-07-29 00:45:44,398] Precondition - Step 04 : Click to login button
+[2023-07-29 00:45:48,644] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-07-29 00:45:51,124] Create Post - Step 02 :Click to ' Add new' Button
+[2023-07-29 00:45:55,594] Create Post - Step 03 : Enter post title Live Coding Title3116
+[2023-07-29 00:45:57,938] Create Post - Step 04: Enter post body Live Coding Body3116
+[2023-07-29 00:46:00,958] Create Post - Step 06 : Click to Publish button
+[2023-07-29 00:46:01,359] Create Post - Step 07 : Click to Confirm Publish button
+[2023-07-29 00:46:03,727] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-07-29 00:46:06,037]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:06,234] Search Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:46:09,525] Search Post - Step 02 : Enter to Search Post
+[2023-07-29 00:46:09,944] Search Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:46:13,281] Search Post - Step 04 : Verify Search table contains Live Coding Title3116
+[2023-07-29 00:46:13,454]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:13,454] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:46:13,607]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:13,607] Search Post - Step 06 : Open End user site
+[2023-07-29 00:46:15,832] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:46:15,985]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:16,125]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:16,267]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:16,407]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:16,407] Search Post - Step 08 : Click to post title
+[2023-07-29 00:46:19,092]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:19,208]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:19,336]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:19,465]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:19,475] Edit Post - Step 01 :Open Admin site
+[2023-07-29 00:46:22,302] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-07-29 00:46:22,765] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-07-29 00:46:22,978] Precondition - Step 04 : Click to login button
+[2023-07-29 00:46:27,551] Edit Post - Step 02 : Click to Post menu link
+[2023-07-29 00:46:29,976] Edit Post - Step 03 :Enter to Search textbox
+[2023-07-29 00:46:30,354] Search Post - Step 04 : Click to 'Search Post' button
+[2023-07-29 00:46:33,830] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-07-29 00:46:38,422] Edit Post - Step 06 :Enter to Post titleEdit Coding Title3116
+[2023-07-29 00:46:40,313] Edit Post - Step 04: Enter post body Edit Coding Body3116
+[2023-07-29 00:46:43,281] Edit Post - Step 07 : Click to update Publish button
+[2023-07-29 00:46:43,601] Edit Post - Step 08 : Verify 'Post Updated' message is displayed
+[2023-07-29 00:46:46,133]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:46,133] Edit Post - Step 01 : Open 'Search Post' page
+[2023-07-29 00:46:49,434] Edit Post - Step 02 : Enter to Search Post
+[2023-07-29 00:46:49,807] Edit Post - Step 03 : Click to 'Search Post' button
+[2023-07-29 00:46:53,254] Edit Post - Step 04 : Verify Search table contains Edit Coding Title3116
+[2023-07-29 00:46:53,440]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:53,441] Edit Post - Step 05 : Verify Search table contains automationVa
+[2023-07-29 00:46:53,630]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:53,630] Edit Post - Step 06 : Open End user site
+[2023-07-29 00:46:55,900] Edit Post - Step 07 : Verify Post info displayed at HomePage
+[2023-07-29 00:46:56,020]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:56,138]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:56,235]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:56,365]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:56,365] Edit Post - Step 08 : Click to post title
+[2023-07-29 00:46:58,928]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:59,042]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:59,165]  -------------------------- PASSED -------------------------- 
+[2023-07-29 00:46:59,270]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:34:01,212] Precondition - Step 01 : Open browser and admin URL
+[2023-08-01 12:34:17,034] Precondition - RANDOM NUMBER7350
+[2023-08-01 12:34:17,034] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-08-01 12:34:17,985] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-08-01 12:34:18,438] Precondition - Step 04 : Click to login button
+[2023-08-01 12:34:28,480] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-08-01 12:34:33,527] Create Post - Step 02 :Click to ' Add new' Button
+[2023-08-01 12:34:41,055] Create Post - Step 03 : Enter post title Live Coding Title7350
+[2023-08-01 12:34:44,539] Create Post - Step 04: Enter post body Live Coding Body7350
+[2023-08-01 12:34:47,401] Create Post - Step 06 : Click to Publish button
+[2023-08-01 12:34:48,821] Create Post - Step 07 : Click to Confirm Publish button
+[2023-08-01 12:34:52,617] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-08-01 12:34:55,888]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:34:56,155] Search Post - Step 01 : Open 'Search Post' page
+[2023-08-01 12:35:00,182] Search Post - Step 02 : Enter to Search Post
+[2023-08-01 12:35:00,640] Search Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 12:35:04,717] Search Post - Step 04 : Verify Search table contains Live Coding Title7350
+[2023-08-01 12:35:04,971]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:35:04,971] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 12:35:05,156]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:35:05,156] Search Post - Step 06 : Open End user site
+[2023-08-01 12:35:08,912] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 12:35:09,184]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:35:09,363]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:35:09,501]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:35:50,529] Edit Post - Step 01 :Open Admin site
+[2023-08-01 12:35:50,932] Edit Post - Step 01 :Open Admin site
+[2023-08-01 12:40:30,034] Precondition - Step 01 : Open browser and admin URL
+[2023-08-01 12:40:39,109] Precondition - RANDOM NUMBER7176
+[2023-08-01 12:40:39,110] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-08-01 12:40:39,418] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-08-01 12:40:39,693] Precondition - Step 04 : Click to login button
+[2023-08-01 12:40:44,199] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-08-01 12:40:46,963] Create Post - Step 02 :Click to ' Add new' Button
+[2023-08-01 12:40:52,167] Create Post - Step 03 : Enter post title Live Coding Title7176
+[2023-08-01 12:40:53,722] Create Post - Step 04: Enter post body Live Coding Body7176
+[2023-08-01 12:40:56,096] Create Post - Step 06 : Click to Publish button
+[2023-08-01 12:40:57,164] Create Post - Step 07 : Click to Confirm Publish button
+[2023-08-01 12:40:57,722] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-08-01 12:41:01,973]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:02,190] Search Post - Step 01 : Open 'Search Post' page
+[2023-08-01 12:41:05,652] Search Post - Step 02 : Enter to Search Post
+[2023-08-01 12:41:06,035] Search Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 12:41:09,414] Search Post - Step 04 : Verify Search table contains Live Coding Title7176
+[2023-08-01 12:41:09,648]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:09,648] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 12:41:09,822]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:09,822] Search Post - Step 06 : Open End user site
+[2023-08-01 12:41:12,553] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 12:41:12,755]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:12,918]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:13,051]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:13,191]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:13,191] Search Post - Step 08 : Click to post title
+[2023-08-01 12:41:16,049]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:16,187]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:16,333]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:16,452]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:16,463] Edit Post - Step 01 :Open Admin site
+[2023-08-01 12:41:19,598] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 12:41:20,055] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 12:41:20,274] Precondition - Step 04 : Click to login button
+[2023-08-01 12:41:24,113] Edit Post - Step 02 : Click to Post menu link
+[2023-08-01 12:41:26,711] Edit Post - Step 03 :Enter to Search textbox
+[2023-08-01 12:41:27,123] Search Post - Step 04 : Click to 'Search Post' button
+[2023-08-01 12:41:31,085] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-08-01 12:41:36,205] Edit Post - Step 06 :Enter to Post titleEdit Coding Title7176
+[2023-08-01 12:41:38,106] Edit Post - Step 04: Enter post body Edit Coding Body7176
+[2023-08-01 12:41:40,767] Edit Post - Step 07 : Click to update Publish button
+[2023-08-01 12:41:41,092] Edit Post - Step 08 : Verify 'Post Updated' message is displayed
+[2023-08-01 12:41:43,934]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:43,934] Edit Post - Step 01 : Open 'Search Post' page
+[2023-08-01 12:41:47,442] Edit Post - Step 02 : Enter to Search Post
+[2023-08-01 12:41:47,887] Edit Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 12:41:51,291] Edit Post - Step 04 : Verify Search table contains Edit Coding Title7176
+[2023-08-01 12:41:51,479]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:51,480] Edit Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 12:41:51,642]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:51,642] Edit Post - Step 06 : Open End user site
+[2023-08-01 12:41:54,182] Edit Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 12:41:54,331]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:54,450]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:54,559]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:54,671]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:54,671] Edit Post - Step 08 : Click to post title
+[2023-08-01 12:41:57,270]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:57,388]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:57,508]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:57,616]  -------------------------- PASSED -------------------------- 
+[2023-08-01 12:41:57,637] Edit Post - Step 01 :Open Admin site
+[2023-08-01 12:42:00,703] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 12:42:01,145] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 12:42:01,367] Precondition - Step 04 : Click to login button
+[2023-08-01 12:42:05,027] Edit Post - Step 05 : Click to Post menu link
+[2023-08-01 12:42:07,682] Edit Post - Step 06 :Enter to Search textbox
+[2023-08-01 12:42:08,050] Search Post - Step 07 : Click to 'Search Post' button
+[2023-08-01 12:42:11,683] Search Post - Step 08 : Select Post detail checkbox
+[2023-08-01 13:28:10,199] Precondition - Step 01 : Open browser and admin URL
+[2023-08-01 13:28:20,122] Precondition - RANDOM NUMBER1924
+[2023-08-01 13:28:20,123] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-08-01 13:28:20,632] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-08-01 13:28:20,957] Precondition - Step 04 : Click to login button
+[2023-08-01 13:28:29,473] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-08-01 13:28:34,025] Create Post - Step 02 :Click to ' Add new' Button
+[2023-08-01 13:28:43,541] Create Post - Step 03 : Enter post title Live Coding Title1924
+[2023-08-01 13:28:49,174] Create Post - Step 04: Enter post body Live Coding Body1924
+[2023-08-01 13:28:52,698] Create Post - Step 06 : Click to Publish button
+[2023-08-01 13:28:53,342] Create Post - Step 07 : Click to Confirm Publish button
+[2023-08-01 13:28:56,554] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-08-01 13:29:01,540]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:01,847] Search Post - Step 01 : Open 'Search Post' page
+[2023-08-01 13:29:05,854] Search Post - Step 02 : Enter to Search Post
+[2023-08-01 13:29:06,687] Search Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 13:29:11,057] Search Post - Step 04 : Verify Search table contains Live Coding Title1924
+[2023-08-01 13:29:11,315]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:11,315] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 13:29:11,508]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:11,508] Search Post - Step 06 : Open End user site
+[2023-08-01 13:29:15,053] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 13:29:15,334]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:15,527]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:15,688]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:15,841]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:15,842] Search Post - Step 08 : Click to post title
+[2023-08-01 13:29:19,479]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:19,654]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:19,800]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:19,944]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:19,960] Edit Post - Step 01 :Open Admin site
+[2023-08-01 13:29:26,463] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 13:29:27,074] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 13:29:27,376] Precondition - Step 04 : Click to login button
+[2023-08-01 13:29:32,091] Edit Post - Step 02 : Click to Post menu link
+[2023-08-01 13:29:35,226] Edit Post - Step 03 :Enter to Search textbox
+[2023-08-01 13:29:35,654] Search Post - Step 04 : Click to 'Search Post' button
+[2023-08-01 13:29:40,028] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-08-01 13:29:46,284] Edit Post - Step 06 :Enter to Post titleEdit Coding Title1924
+[2023-08-01 13:29:50,540] Edit Post - Step 04: Enter post body Edit Coding Body1924
+[2023-08-01 13:29:53,357] Edit Post - Step 07 : Click to update Publish button
+[2023-08-01 13:29:53,710] Edit Post - Step 08 : Verify 'Post Updated' message is displayed
+[2023-08-01 13:29:57,800]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:29:57,800] Edit Post - Step 01 : Open 'Search Post' page
+[2023-08-01 13:30:01,925] Edit Post - Step 02 : Enter to Search Post
+[2023-08-01 13:30:02,467] Edit Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 13:30:07,349] Edit Post - Step 04 : Verify Search table contains Edit Coding Title1924
+[2023-08-01 13:30:07,594]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:07,594] Edit Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 13:30:07,813]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:07,813] Edit Post - Step 06 : Open End user site
+[2023-08-01 13:30:10,724] Edit Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 13:30:10,886]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:11,023]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:11,160]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:11,278]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:11,278] Edit Post - Step 08 : Click to post title
+[2023-08-01 13:30:14,738]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:14,861]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:14,994]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:15,151]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:15,160] Edit Post - Step 01 :Open Admin site
+[2023-08-01 13:30:18,758] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 13:30:19,253] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 13:30:19,510] Precondition - Step 04 : Click to login button
+[2023-08-01 13:30:25,676] Edit Post - Step 05 : Click to Post menu link
+[2023-08-01 13:30:29,298] Edit Post - Step 06 :Enter to Search textbox
+[2023-08-01 13:30:29,757] Search Post - Step 07 : Click to 'Search Post' button
+[2023-08-01 13:30:34,299] Search Post - Step 08 : Select Post detail checkbox
+[2023-08-01 13:30:34,676] Search Post - Step 09 : Select 'Move to Trash' item in dropdown
+[2023-08-01 13:30:35,055] Search Post - Step 10 : Click to 'Apply' Button
+[2023-08-01 13:30:39,535] Search Post - Step 11 : Verify '1 post moved to Trash.' message is displayed
+[2023-08-01 13:30:39,691]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:30:39,692] Edit Post - Step 12 :Enter to Search textbox
+[2023-08-01 13:30:40,028] Search Post - Step 13 : Click to 'Search Post' button
+[2023-08-01 13:30:44,623] Search Post - Step 14 : Verify 'No posts found.' message is displayed
+[2023-08-01 13:52:26,289] Precondition - Step 01 : Open browser and admin URL
+[2023-08-01 13:52:39,272] Precondition - RANDOM NUMBER6480
+[2023-08-01 13:52:39,273] Precondition - Step 02 : Enter to username textbox with valueautomationVa
+[2023-08-01 13:52:39,885] Precondition - Step 03 : Enter to pw textbox with valueautomationVa
+[2023-08-01 13:52:40,247] Precondition - Step 04 : Click to login button
+[2023-08-01 13:52:48,486] Create Post - Step 01 :Click to 'Post' menu link 
+[2023-08-01 13:52:56,770] Create Post - Step 02 :Click to ' Add new' Button
+[2023-08-01 13:53:11,937] Create Post - Step 03 : Enter post title Live Coding Title6480
+[2023-08-01 13:53:15,994] Create Post - Step 04: Enter post body Live Coding Body6480
+[2023-08-01 13:53:18,286] Create Post - Step 06 : Click to Publish button
+[2023-08-01 13:53:19,760] Create Post - Step 07 : Click to Confirm Publish button
+[2023-08-01 13:53:20,409] Create Post - Step 08 : Verify 'Post Published' message is displayed
+[2023-08-01 13:53:25,852]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:26,057] Search Post - Step 01 : Open 'Search Post' page
+[2023-08-01 13:53:28,818] Search Post - Step 02 : Enter to Search Post
+[2023-08-01 13:53:29,225] Search Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 13:53:32,863] Search Post - Step 04 : Verify Search table contains Live Coding Title6480
+[2023-08-01 13:53:33,060]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:33,061] Search Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 13:53:33,244]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:33,244] Search Post - Step 06 : Open End user site
+[2023-08-01 13:53:35,919] Search Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 13:53:36,096]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:36,245]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:36,386]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:36,527]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:36,528] Search Post - Step 08 : Click to post title
+[2023-08-01 13:53:39,690]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:39,832]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:39,971]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:40,110]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:53:40,120] Edit Post - Step 01 :Open Admin site
+[2023-08-01 13:53:43,638] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 13:53:44,096] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 13:53:44,318] Precondition - Step 04 : Click to login button
+[2023-08-01 13:53:48,242] Edit Post - Step 02 : Click to Post menu link
+[2023-08-01 13:53:51,905] Edit Post - Step 03 :Enter to Search textbox
+[2023-08-01 13:53:52,289] Search Post - Step 04 : Click to 'Search Post' button
+[2023-08-01 13:53:56,182] Edit Post - Step 05 : Click to post title link and navigate to Edit post page
+[2023-08-01 13:54:01,495] Edit Post - Step 06 :Enter to Post titleEdit Coding Title6480
+[2023-08-01 13:54:03,046] Edit Post - Step 04: Enter post body Edit Coding Body6480
+[2023-08-01 13:54:06,037] Edit Post - Step 07 : Click to update Publish button
+[2023-08-01 13:54:06,343] Edit Post - Step 08 : Verify 'Post Updated' message is displayed
+[2023-08-01 13:54:09,061]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:09,061] Edit Post - Step 01 : Open 'Search Post' page
+[2023-08-01 13:54:12,398] Edit Post - Step 02 : Enter to Search Post
+[2023-08-01 13:54:12,845] Edit Post - Step 03 : Click to 'Search Post' button
+[2023-08-01 13:54:16,387] Edit Post - Step 04 : Verify Search table contains Edit Coding Title6480
+[2023-08-01 13:54:16,577]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:16,577] Edit Post - Step 05 : Verify Search table contains automationVa
+[2023-08-01 13:54:16,754]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:16,754] Edit Post - Step 06 : Open End user site
+[2023-08-01 13:54:19,225] Edit Post - Step 07 : Verify Post info displayed at HomePage
+[2023-08-01 13:54:19,380]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:19,499]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:19,610]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:19,739]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:19,739] Edit Post - Step 08 : Click to post title
+[2023-08-01 13:54:22,417]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:22,519]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:22,630]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:22,729]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:22,740] Edit Post - Step 01 :Open Admin site
+[2023-08-01 13:54:26,686] Precondition - Step 02 : Enter to username textbox with value automationVa
+[2023-08-01 13:54:27,220] Precondition - Step 03 : Enter to pw textbox with value automationVa
+[2023-08-01 13:54:27,451] Precondition - Step 04 : Click to login button
+[2023-08-01 13:54:31,479] Edit Post - Step 05 : Click to Post menu link
+[2023-08-01 13:54:34,181] Edit Post - Step 06 :Enter to Search textbox
+[2023-08-01 13:54:34,570] Search Post - Step 07 : Click to 'Search Post' button
+[2023-08-01 13:54:38,195] Search Post - Step 08 : Select Post detail checkbox
+[2023-08-01 13:54:38,509] Search Post - Step 09 : Select 'Move to Trash' item in dropdown
+[2023-08-01 13:54:38,809] Search Post - Step 10 : Click to 'Apply' Button
+[2023-08-01 13:54:42,434] Search Post - Step 11 : Verify '1 post moved to Trash.' message is displayed
+[2023-08-01 13:54:42,564]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:42,564] Edit Post - Step 12 :Enter to Search textbox
+[2023-08-01 13:54:43,007] Search Post - Step 13 : Click to 'Search Post' button
+[2023-08-01 13:54:46,415] Search Post - Step 14 : Verify 'No posts found.' message is displayed
+[2023-08-01 13:54:46,627]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:46,627] Search Post - Step 15 : Open End User site
+[2023-08-01 13:54:49,443] Search Post - Step 16 : Verify post title undisplayed at home page
+[2023-08-01 13:54:54,529]  -------------------------- PASSED -------------------------- 
+[2023-08-01 13:54:54,530] Search Post - Step 17 : Enter to search textboxEdit Coding Title6480
+[2023-08-01 13:54:54,840] Search Post - Step 18 : Click to 'search' Button
+[2023-08-01 13:54:56,679] Search Post - Step 19 : Verify 'Nothing found' message is displayed
+[2023-08-01 13:54:56,838]  -------------------------- PASSED -------------------------- 

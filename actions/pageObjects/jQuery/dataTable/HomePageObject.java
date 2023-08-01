@@ -72,15 +72,6 @@ public class HomePageObject extends BasePage {
 		return allCountryRowValueAllPage;
 	}
 
-	private void sleepInSecond(long timeInSecond) {
-		try {
-			Thread.sleep(timeInSecond * 1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
 	public void enterToTextboxByCollumnNameAtRowNumber(String rowIndex, String columnName, String value) {
 		// TODO Auto-generated method stub
 		int collumnIndex = getElementSize(driver, HomePageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;

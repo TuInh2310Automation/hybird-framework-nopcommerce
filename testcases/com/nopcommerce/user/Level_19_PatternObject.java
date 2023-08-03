@@ -138,7 +138,7 @@ public class Level_19_PatternObject extends BaseTest {
 
 	@AfterClass
 	public void afterClass() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }

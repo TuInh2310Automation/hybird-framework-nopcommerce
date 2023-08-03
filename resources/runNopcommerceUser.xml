@@ -16,5 +16,12 @@
 			<class name="com.nopcommerce.user.Level_19_PatternObject" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_19_PatternObject" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->

@@ -20,5 +20,12 @@
 			<class name="com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search_Post" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.wordpress.admin.Post_01_Create_Read_Update_Delete_Search_Post" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->

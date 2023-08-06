@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Swag Labs" parallel= "false">
+
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+		<listener class-name="reportConfig.ReportNGListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+
+	<parameter name="appUrl" value="https://www.saucedemo.com/" />
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.swaglabs.Level_20_Sort_Asc_Desc" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

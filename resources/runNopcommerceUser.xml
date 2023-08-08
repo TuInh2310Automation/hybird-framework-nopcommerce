@@ -13,14 +13,14 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_19_PatternObject" />
+			<class name="com.nopcommerce.user.Level_21_Driven_Data_json" />
 		</classes>
 	</test> <!-- Test -->
 	
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_19_PatternObject" />
+			<class name="com.nopcommerce.user.Level_21_Driven_Data_json" />
 		</classes>
 	</test> <!-- Test -->
 

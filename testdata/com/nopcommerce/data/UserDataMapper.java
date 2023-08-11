@@ -53,6 +53,10 @@ public class UserDataMapper {
 			return null;
 		}
 	}
+	public Login getLogin() {
+		return login;
+	}
+	
 	public String getFirstName() {
 		return firstName;
 	}

@@ -5,6 +5,7 @@ import static org.testng.Assert.assertTrue;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,8 +27,9 @@ import pageObjectsl.nopCommerce.user.User_LoginPageObject;
 import pageObjectsl.nopCommerce.user.User_MyProductReviewsPageObject;
 import pageObjectsl.nopCommerce.user.User_RegisterPageObject;
 import pageObjectsl.nopCommerce.user.User_RewardPointsPageObject;
+import utilities.Enviroments;
 
-public class Level_22_Multiple_Enviroment extends BaseTest {
+public class Level_22_Multiple_Enviroment_Owner extends BaseTest {
 
 	private WebDriver driver;
 
@@ -39,11 +41,14 @@ public class Level_22_Multiple_Enviroment extends BaseTest {
 	private User_CustomerInfoPageObject customerInfoPage;
 	User_RewardPointsPageObject rewardPointsPage;
 	UserDataMapper userData;
-
+	Enviroments enviroments;
+	
 	@Parameters({ "browser", "enviroment" })
 	@BeforeClass
-	public void beforeClass(String browserName, String enviroment) {
-		driver = getBrowserDriverWithEnviroment(browserName, enviroment);
+	public void beforeClass(String browserName, String enviromentName) {
+		ConfigFactory.setProperty("env", enviromentName);
+		enviroments = ConfigFactory.create(Enviroments.class);
+		driver = getBrowserDriverWithEnviroment(browserName, enviroments.appUrl());
 		userData = UserDataMapper.getUserData();
 		firstName = userData.getFirstName();
 		lastname =userData.getLastName();

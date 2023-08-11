@@ -13,7 +13,7 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_22_Multiple_Enviroment" />
+			<class name="com.nopcommerce.user.Level_22_Multiple_Enviroment_Owner" />
 		</classes>
 	</test> <!-- Test -->
 	

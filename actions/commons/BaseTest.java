@@ -2,23 +2,30 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.aspectj.org.eclipse.jdt.internal.core.BecomeWorkingCopyOperation;
+import org.bouncycastle.est.EnrollmentResponse;
 import org.joda.time.DateTime;
 import org.joda.time.DateTime.Property;
 import org.joda.time.format.DateTimeFormat;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
@@ -115,15 +122,11 @@ public class BaseTest {
 		switch (browserName) {
 		case "chrome":
 			/*
-			WebDriverManager.chromedriver().setup();
-			//Add extension to Chrome
-			File translateChrome= new File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\extension_2_0_13_0.crx");
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addExtensions(translateChrome);
-			driver = new ChromeDriver(chromeOptions);
-			break;
-			*/
-			
+			 * WebDriverManager.chromedriver().setup(); //Add extension to Chrome File translateChrome= new
+			 * File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\extension_2_0_13_0.crx"); ChromeOptions chromeOptions = new ChromeOptions();
+			 * chromeOptions.addExtensions(translateChrome); driver = new ChromeDriver(chromeOptions); break;
+			 */
+
 			WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.args", "--disable--logging");
 			System.setProperty("webdriver.chrome.silentOutput", "true");
@@ -139,22 +142,15 @@ public class BaseTest {
 			break;
 		case "firefox":
 			/*
-			WebDriverManager.firefoxdriver().setup();
-			// System.setProperty("webdriver.gecko.driver", projectPathString + "\\browserDrivers\\geckodriver.exe");	
-			//Add extension to Firefox
-			FirefoxProfile profile=new FirefoxProfile();
-			File translate= new File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\to_google_translate-4.2.0.xpi");
-			profile.addExtension(translate);
-			profile.setAcceptUntrustedCertificates(true);
-			profile.setAssumeUntrustedCertificateIssuer(true);
-			FirefoxOptions options=new FirefoxOptions();
-			options.setProfile(profile);
-			driver = new FirefoxDriver(options);
-			break;
-			*/
+			 * WebDriverManager.firefoxdriver().setup(); // System.setProperty("webdriver.gecko.driver", projectPathString + "\\browserDrivers\\geckodriver.exe"); //Add
+			 * extension to Firefox FirefoxProfile profile=new FirefoxProfile(); File translate= new
+			 * File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\to_google_translate-4.2.0.xpi"); profile.addExtension(translate);
+			 * profile.setAcceptUntrustedCertificates(true); profile.setAssumeUntrustedCertificateIssuer(true); FirefoxOptions options=new FirefoxOptions();
+			 * options.setProfile(profile); driver = new FirefoxDriver(options); break;
+			 */
 			WebDriverManager.firefoxdriver().setup();
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH+"\\browserLogs\\FirefoxLog.log");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + "\\browserLogs\\FirefoxLog.log");
 			driver = new FirefoxDriver();
 			break;
 		case "h_firefox":
@@ -205,6 +201,164 @@ public class BaseTest {
 		return driver;
 	}
 
+	protected WebDriver getBrowserDriverGRID(String browserName, String appUrl, String osName, String ipAddress, String portNumber) {
+		DesiredCapabilities capability = null;
+		Platform platform = null;
+
+		if (osName.contains("windows")) {
+			platform = Platform.WINDOWS;
+		} else {
+			platform = Platform.MAC;
+		}
+
+		switch (browserName) {
+		case "firefox":
+			capability = DesiredCapabilities.firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(platform);
+
+			FirefoxOptions fOptions = new FirefoxOptions();
+			fOptions.merge(capability);
+			break;
+		case "chrome":
+			capability = DesiredCapabilities.chrome();
+			capability.setBrowserName("chrome");
+			capability.setPlatform(platform);
+
+			ChromeOptions cOptions = new ChromeOptions();
+			cOptions.merge(capability);
+			break;
+		case "edge":
+			capability = DesiredCapabilities.edge();
+			capability.setBrowserName("edge");
+			capability.setPlatform(platform);
+
+			EdgeOptions eOptions = new EdgeOptions();
+			eOptions.merge(capability);
+			break;
+		default:
+			throw new RuntimeException("Browser is not valid!");
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.get(appUrl);
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverWithEnviroment(String browserName, String enviromentName) {
+		switch (browserName) {
+		case "chrome":
+			/*
+			 * WebDriverManager.chromedriver().setup(); //Add extension to Chrome File translateChrome= new
+			 * File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\extension_2_0_13_0.crx"); ChromeOptions chromeOptions = new ChromeOptions();
+			 * chromeOptions.addExtensions(translateChrome); driver = new ChromeDriver(chromeOptions); break;
+			 */
+
+			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.args", "--disable--logging");
+			System.setProperty("webdriver.chrome.silentOutput", "true");
+			driver = new ChromeDriver();
+			break;
+		case "h_chrome":
+			// System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions chromeOptionH = new ChromeOptions();
+			chromeOptionH.addArguments("-headless");
+			chromeOptionH.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(chromeOptionH);
+			break;
+		case "firefox":
+			/*
+			 * WebDriverManager.firefoxdriver().setup(); // System.setProperty("webdriver.gecko.driver", projectPathString + "\\browserDrivers\\geckodriver.exe"); //Add
+			 * extension to Firefox FirefoxProfile profile=new FirefoxProfile(); File translate= new
+			 * File(GlobalConstants.PROJECT_PATH+"\\browserExtensions\\to_google_translate-4.2.0.xpi"); profile.addExtension(translate);
+			 * profile.setAcceptUntrustedCertificates(true); profile.setAssumeUntrustedCertificateIssuer(true); FirefoxOptions options=new FirefoxOptions();
+			 * options.setProfile(profile); driver = new FirefoxDriver(options); break;
+			 */
+			WebDriverManager.firefoxdriver().setup();
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + "\\browserLogs\\FirefoxLog.log");
+			driver = new FirefoxDriver();
+			break;
+		case "h_firefox":
+			WebDriverManager.firefoxdriver().setup();
+			// System.setProperty("webdriver.gecko.driver", projectPathString + "\\browserDrivers\\geckodriver.exe");
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			firefoxOptions.addArguments("-headless");
+			firefoxOptions.addArguments("window-size=1920x1080");
+			driver = new FirefoxDriver(firefoxOptions);
+			break;
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			// System.setProperty("webdriver.edge.driver", projectPathString + "\\browserDrivers\\msedgedriver.exe");
+			driver = new EdgeDriver();
+			break;
+
+		case "opera":
+			WebDriverManager.operadriver().setup();
+			System.setProperty("webdriver.opera.driver", projectPathString + "\\browserDrivers\\operadriver.exe");
+			driver = new OperaDriver();
+			break;
+		case "coccoc":
+
+			// coccoc browser tru di 5,6 version thi ra version chrome driver
+			// WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
+			ChromeOptions coccocOption = new ChromeOptions();
+			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+				coccocOption.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+			} else {
+				coccocOption.setBinary("");
+			}
+			driver = new ChromeDriver(coccocOption);
+			break;
+		case "brave":
+			WebDriverManager.chromedriver().setup();
+			// System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
+			ChromeOptions braveOption = new ChromeOptions();
+			braveOption.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(braveOption);
+			break;
+		default:
+			break;
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(getEnviromentUrlString(enviromentName));
+		driver.manage().window().maximize();
+		return driver;
+	}
+
+	protected String getEnviromentUrlString(String serverName) {
+		String envUrlString = null;
+		EnviromentList enviroment = EnviromentList.valueOf(serverName.toUpperCase());
+		switch (enviroment) {
+		case DEV:
+			envUrlString = "https://demo.nopcommerce.com/";
+			break;
+		case TESTING:
+			envUrlString = "https://testing.nopcommerce.com/";
+			break;
+		case STAGING:
+			envUrlString = "https://staging.nopcommerce.com/";
+			break;
+		case PRE_PRODUCT:
+			envUrlString = "https://pre-prod.nopcommerce.com/";
+			break;
+		case PRODUCT:
+			envUrlString = "https://prod.nopcommerce.com/";
+			break;
+
+		default:
+			envUrlString = null;
+			break;
+		}
+		return envUrlString;
+	}
+
 	protected String getCurrentDate() {
 		DateTime nowUTC = new DateTime();
 		int day = nowUTC.getDayOfMonth();
@@ -230,7 +384,7 @@ public class BaseTest {
 	}
 
 	protected String getCurrentDay() {
-		return getCurrentMonth() + " "+ getCurrentDate() + ", " + getCurrentYear();
+		return getCurrentMonth() + " " + getCurrentDate() + ", " + getCurrentYear();
 	}
 
 	protected boolean verifyTrue(boolean condition) {

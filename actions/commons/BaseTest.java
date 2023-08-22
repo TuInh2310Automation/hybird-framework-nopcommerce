@@ -248,6 +248,30 @@ public class BaseTest {
 		driver.get(appUrl);
 		return driver;
 	}
+	protected WebDriver getBrowserDriverBrowserStack(String browserName, String appUrl, String osName, String osVersion) {
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setCapability("os", osName);
+		capability.setCapability("os_version", osVersion);
+		capability.setCapability("browser", browserName);
+		capability.setCapability("browser_version", "latest");
+		capability.setCapability("browserstack.debug", "true");
+		capability.setCapability("project", "Nopcommerce");
+		capability.setCapability("name", "Run on " + osName + " | " + osVersion+" | " + browserName);
+		if (osName.contains("Windows")){
+			capability.setCapability("resolution", "1920x1080");
+		} else {
+			capability.setCapability("resolution", "1920x1440");
+		}
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_URL), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(appUrl);
+		return driver;
+	}
 
 	protected WebDriver getBrowserDriverWithEnviroment(String browserName, String enviromentName) {
 		switch (browserName) {

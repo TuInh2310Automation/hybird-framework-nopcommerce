@@ -3,10 +3,10 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
-		<listener class-name="reportConfig.AllureTestListener"></listener>
-		<!-- <listener class-name="reportConfig.ReportNGListener"></listener>
-		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<!--<listener class-name="reportConfig.AllureTestListener"></listener>
+		<listener class-name="reportConfig.ReportNGListener"></listener>
 		<listener class-name="reportConfig.ExtentTestListenerV5"></listener>-->
 	</listeners>
 	<parameter name="appUrl" value="https://demo.nopcommerce.com/" />
@@ -15,9 +15,9 @@
 		<parameter name="osName" value="Windows" />
 		<parameter name="osVersion" value="10" />
 		<classes>
-			<class name="com.nopcommerce.browserstack.Level_24_Browser_Stack" />
+			<class name="com.nopcommerce.cloud.Level_24_Browser_Stack" />
 		</classes>
 	</test> <!-- Test -->
 
-	
+
 </suite> <!-- Suite -->

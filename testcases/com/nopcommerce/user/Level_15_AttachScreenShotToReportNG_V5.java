@@ -49,7 +49,7 @@ public class Level_15_AttachScreenShotToReportNG_V5 extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 
 		firstName = "Automation";
 		lastname = "FC";

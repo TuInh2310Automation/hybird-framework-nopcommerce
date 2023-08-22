@@ -42,7 +42,7 @@ public class Level_07_Switch_Page_UI extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriverLocal(browserName);
 
 		firstName = "Automation";
 		lastname = "FC";

@@ -40,7 +40,7 @@ public class Level_17_Share_Data_C extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
 		log.info("Precondition - Step 01 : Navigate to Login Page");

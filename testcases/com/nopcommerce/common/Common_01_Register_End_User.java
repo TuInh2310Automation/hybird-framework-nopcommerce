@@ -35,7 +35,7 @@ public class Common_01_Register_End_User extends BaseTest {
 		lastname = "FC";
 		password = "123456";
 		confirmPw = "123456";
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriverLocal(browserName);
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 		email = "afc" + generateRandomNumber() + "@mail.vn";
 		log.info("PreCondition - Step 01 : Navigate to register Page");

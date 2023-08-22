@@ -9,14 +9,23 @@
 		<listener class-name="reportConfig.ReportNGListener"></listener>
 		<listener class-name="reportConfig.ExtentTestListenerV5"></listener>-->
 	</listeners>
-	<parameter name="envName" value="browserStack" />
+	
+	<parameter name="envName" value="sauceLab" />
 	<parameter name="enviroment" value="dev" />
-	<test name="Run on Chrome">
-		<parameter name="browser" value="Chrome" />
-		<parameter name="osName" value="Windows" />
-		<parameter name="osVersion" value="10" />
+	
+	<test name="Run on Firefox">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="osName" value="Windows 10" />
 		<classes>
 			<class name="com.nopcommerce.cloud.Level_26_Common_AllEnviroment" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="osName" value="macOS 11.00" />
+		<classes>
+			<class name="com.nopcommerce.cloud.Level_25_SauceLabs" />
 		</classes>
 	</test> <!-- Test -->
 

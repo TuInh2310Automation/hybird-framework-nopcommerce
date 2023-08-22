@@ -42,7 +42,7 @@ public class Level_12_Assert_Verify extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 
 		firstName = "Automation";
 		lastname = "FC";

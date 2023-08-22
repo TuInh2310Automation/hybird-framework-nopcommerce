@@ -31,7 +31,7 @@ public class Level_04_Multiple_Browser extends BaseTest{
 	@Parameters( "browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriverLocal(browserName);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
 		homePage = new User_HomePageObject(driver);

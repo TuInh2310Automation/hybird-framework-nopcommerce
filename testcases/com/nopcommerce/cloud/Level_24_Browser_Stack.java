@@ -1,4 +1,4 @@
-package com.nopcommerce.browserstack;
+package com.nopcommerce.cloud;
 
 import static org.testng.Assert.assertTrue;
 

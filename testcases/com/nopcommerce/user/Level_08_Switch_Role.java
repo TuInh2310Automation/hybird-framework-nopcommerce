@@ -47,7 +47,7 @@ public class Level_08_Switch_Role extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriverLocal(browserName);
 		userHomePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
 		userPassword = "123456";

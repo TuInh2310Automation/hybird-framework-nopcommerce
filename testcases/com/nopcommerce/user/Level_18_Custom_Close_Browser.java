@@ -44,7 +44,7 @@ public class Level_18_Custom_Close_Browser extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
 		firstName = "Automation";

@@ -43,7 +43,7 @@ public class Level_21_Driven_Data_json extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		userData = UserDataMapper.getUserData();
 		firstName = userData.getFirstName();
 		lastname =userData.getLastName();

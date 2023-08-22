@@ -42,14 +42,14 @@ public class Level_17_Share_Data_B extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
 		firstName = "Automation";
 		lastname = "FC";
 		password = "123456";
 		confirmPw = "123456";
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 		email = "afc" + generateRandomNumber() + "@mail.vn";
 		log.info("Pre-Condition - Step 01 : Navigate to register Page");

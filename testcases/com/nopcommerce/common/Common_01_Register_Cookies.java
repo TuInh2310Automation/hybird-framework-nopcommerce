@@ -40,9 +40,11 @@ public class Common_01_Register_Cookies extends BaseTest {
 		lastname = "FC";
 		password = "123456";
 		confirmPw = "123456";
-		driver = getBrowserDriver(browserName, appUrl);
-		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 		email = "afc" + generateRandomNumber() + "@mail.vn";
+		
+		driver = getBrowserDriverLocal(browserName, appUrl);
+		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
+		
 		
 		log.info("PreCondition - Step 01 : Navigate to register Page");
 		registerPage = homePage.clickToRegisterLink();

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
@@ -30,6 +32,10 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
+import factoryEnviroments.BrowserStackFactory;
+import factoryEnviroments.GridFactory;
+import factoryEnviroments.LocalFactory;
+import factoryEnviroments.SauceLabsFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -50,7 +56,32 @@ public class BaseTest {
 		return this.driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName) {
+	protected WebDriver getBrowserDriver(String envName, String serverName, String browserName, String ipAddress, String portNumber, String osName, String osVersion) {
+		switch (envName) {
+		case "local":
+			driver = new LocalFactory(browserName).creaDriver();
+			break;
+		case "grid":
+			driver= new GridFactory(browserName, ipAddress, portNumber).creaDriver();
+			break;
+		case "browserStack":
+			driver= new BrowserStackFactory(browserName, osName, osVersion).creaDriver();
+			break;
+		case "sauceLab":
+			driver = new SauceLabsFactory(browserName, osName).creaDriver();
+			break;
+
+		default:
+			driver = new LocalFactory(browserName).creaDriver();
+			break;
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(getEnviromentUrlString(serverName));
+		driver.manage().window().maximize();
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverLocal(String browserName) {
 		switch (browserName) {
 		case "chrome":
 			// System.setProperty("webdriver.chrome.driver", projectPathString + "\\browserDrivers\\chromedriver.exe");
@@ -118,7 +149,7 @@ public class BaseTest {
 		return driver;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+	protected WebDriver getBrowserDriverLocal(String browserName, String appUrl) {
 		switch (browserName) {
 		case "chrome":
 			/*
@@ -248,6 +279,7 @@ public class BaseTest {
 		driver.get(appUrl);
 		return driver;
 	}
+
 	protected WebDriver getBrowserDriverBrowserStack(String browserName, String appUrl, String osName, String osVersion) {
 		DesiredCapabilities capability = new DesiredCapabilities();
 		capability.setCapability("os", osName);
@@ -256,14 +288,41 @@ public class BaseTest {
 		capability.setCapability("browser_version", "latest");
 		capability.setCapability("browserstack.debug", "true");
 		capability.setCapability("project", "Nopcommerce");
-		capability.setCapability("name", "Run on " + osName + " | " + osVersion+" | " + browserName);
-		if (osName.contains("Windows")){
+		capability.setCapability("name", "Run on " + osName + " | " + osVersion + " | " + browserName);
+		if (osName.contains("Windows")) {
 			capability.setCapability("resolution", "1920x1080");
 		} else {
 			capability.setCapability("resolution", "1920x1440");
 		}
 		try {
-			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_URL), capability);
+			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_STACK_URL), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(appUrl);
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverSauceLabs(String browserName, String appUrl, String osName) {
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setCapability("platformName", osName);
+		capability.setCapability("browserName", browserName);
+		capability.setCapability("browserVersion", "latest");
+		capability.setCapability("name", "Run on " + osName + " | " + browserName);
+
+		Map<String, Object> sauceOptionsMap = new HashMap<>();
+		if (osName.contains("Windows")) {
+			sauceOptionsMap.put("screenSolution", "1920x1080");
+		} else {
+			sauceOptionsMap.put("screenSolution", "1920x1440");
+		}
+
+		capability.setCapability("sauce:options", sauceOptionsMap);
+
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.SAUCE_LABS_URL), capability);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}

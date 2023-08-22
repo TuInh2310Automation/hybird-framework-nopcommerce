@@ -36,7 +36,7 @@ public class Level_20_Sort_Asc_Desc extends BaseTest {
 	@Parameters({ "browser", "appUrl" })
 	@BeforeClass
 	public void beforeClass(String browserName, String swaglabUrl) {
-		driver = getBrowserDriver(browserName, swaglabUrl);
+		driver = getBrowserDriverLocal(browserName, swaglabUrl);
 		loginPage = pageObjects.swagLabs.PageGeneratorManagement.getLoginPage(driver);
 		loginPage.enterToUsernameTextBox("standard_user");
 		loginPage.enterToPasswordTextBox("secret_sauce");

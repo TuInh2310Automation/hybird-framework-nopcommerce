@@ -36,7 +36,7 @@ public class Level_06_Page_Generator_Manager_Login extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriverLocal(browserName);
 
 		firstName = "Automation";
 		lastname = "FC";

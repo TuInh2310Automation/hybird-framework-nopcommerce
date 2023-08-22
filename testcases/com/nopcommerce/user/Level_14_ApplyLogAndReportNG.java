@@ -40,7 +40,7 @@ public class Level_14_ApplyLogAndReportNG extends BaseTest {
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+		driver = getBrowserDriverLocal(browserName, appUrl);
 
 		firstName = "Automation";
 		lastname = "FC";

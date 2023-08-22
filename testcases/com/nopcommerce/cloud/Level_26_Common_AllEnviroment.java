@@ -1,18 +1,22 @@
-package com.nopcommerce.user;
+package com.nopcommerce.cloud;
 
 import static org.testng.Assert.assertTrue;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.nopcommerce.data.UserDataMapper;
 
 import commons.BasePage;
 import commons.BaseTest;
@@ -24,46 +28,49 @@ import pageObjectsl.nopCommerce.user.User_LoginPageObject;
 import pageObjectsl.nopCommerce.user.User_MyProductReviewsPageObject;
 import pageObjectsl.nopCommerce.user.User_RegisterPageObject;
 import pageObjectsl.nopCommerce.user.User_RewardPointsPageObject;
-import utilities.DataHelper;
+import utilities.Enviroments;
 
-public class Level_20_Faker_Data extends BaseTest {
+public class Level_26_Common_AllEnviroment extends BaseTest {
 
 	private WebDriver driver;
 
 	BasePage basePage;
-	private DataHelper fakeData;
 	private User_HomePageObject homePage;
-	private String firstName, lastname, password, confirmPw, email, date, month,year;
+	private String firstName, lastname, password, confirmPw, email, date, month, year;
 	private User_RegisterPageObject registerPage;
 	private User_LoginPageObject loginPage;
 	private User_CustomerInfoPageObject customerInfoPage;
 	User_RewardPointsPageObject rewardPointsPage;
+	UserDataMapper userData;
+	Enviroments enviroments;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browser","ipAddress","portNumber","osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriverLocal(browserName, appUrl);
-fakeData = new DataHelper();
-		firstName = fakeData.getFirstName();
-		lastname = fakeData.getLastName();
-		password = fakeData.getPassword();
-		confirmPw = fakeData.getPassword();
-		email = fakeData.getEmailAddress();
-		date = "23";
-		month = "October";
-		year = "1990";
+	public void beforeClass(@Optional("local") String envName ,@Optional("dev") String serverName,@Optional("chrome") String browserName,@Optional("localhost") String ipAddress,@Optional("4444") String portNumber,
+			@Optional("Windows") String osName, @Optional("10") String osVersion) {
+		ConfigFactory.setProperty("env", "dev");
+		enviroments = ConfigFactory.create(Enviroments.class);
+		driver = getBrowserDriver(envName, serverName, browserName, ipAddress, portNumber, osName, osVersion);
+		userData = UserDataMapper.getUserData();
+		firstName = userData.getFirstName();
+		lastname = userData.getLastName();
+		password = userData.getPassword();
+		confirmPw = userData.getPassword();
+		email = userData.getEnailAddress() + generateRandomNumber() + "@fakemail.vn";
+		date = userData.getDate();
+		month = userData.getMonth();
+		year = userData.getYear();
 
 		homePage = PageGeneratorManagement.getUserHomePageObject(driver);
 
 	}
-
 
 	@Test
 	public void User_01_Register() {
 		log.info("Register - Step 01 : Navigate to register Page");
 		registerPage = homePage.clickToRegisterLink();
 
-		registerPage.clickToRadioButtonByLabel(driver,"Female");
+		registerPage.clickToRadioButtonByLabel(driver, "Female");
 		log.info("Register - Step 02 : Enter to FirstName textbox with value is " + firstName);
 		registerPage.inputTextBoxById(driver, "FirstName", firstName);
 
@@ -74,8 +81,8 @@ fakeData = new DataHelper();
 		registerPage.selectToDropDownByName(driver, "DateOfBirthMonth", month);
 		registerPage.selectToDropDownByName(driver, "DateOfBirthYear", year);
 		log.info("Register - Step 04 : Select birthday " + date + "/" + month + "/" + year);
-		
-		registerPage.clickToCheckBoxByLabel(driver,"Newsletter:");
+
+		registerPage.clickToCheckBoxByLabel(driver, "Newsletter:");
 		log.info("Register - Step 04 : Enter to email textbox with value is " + email);
 		registerPage.inputTextBoxById(driver, "Email", email);
 
@@ -113,7 +120,6 @@ fakeData = new DataHelper();
 		log.info("Register - Step 05: Verify 'MyAccount' link is display");
 		verifyTrue(homePage.isMyAccountLinkDisplayed());
 
-		
 	}
 
 	@Test
@@ -123,24 +129,24 @@ fakeData = new DataHelper();
 
 		log.info("My Account - Step 02: Verify  'My Account' Page is displayed");
 		verifyTrue(customerInfoPage.isCustomerInfoPageDisplay());
-		
+
 		log.info("My Account - Step 03: Verify  'My Account' Page is displayed");
 		Assert.assertEquals(customerInfoPage.getTextBoxValueById(driver, "FirstName"), firstName);
-		
+
 		log.info("My Account - Step 04: Verify  lastname is displayed correct");
 		Assert.assertEquals(customerInfoPage.getTextBoxValueById(driver, "LastName"), lastname);
-		
+
 		log.info("My Account - Step 05: Verify  email is displayed correct");
 		Assert.assertEquals(customerInfoPage.getTextBoxValueById(driver, "Email"), email);
 	}
-	
+
 	public int generateRandomNumber() {
 		return new Random().nextInt(9999);
 	}
 
 	@AfterClass
 	public void afterClass() {
-		//driver.quit();
+		// driver.quit();
 	}
 
 }

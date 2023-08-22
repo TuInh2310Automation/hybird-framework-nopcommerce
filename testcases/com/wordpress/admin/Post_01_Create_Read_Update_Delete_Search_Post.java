@@ -52,7 +52,7 @@ public class Post_01_Create_Read_Update_Delete_Search_Post extends BaseTest {
 		this.adminUrl = adminUrl;
 		this.endUserUrl = endUserUrl;
 		currentDay = getCurrentDay();
-		driver = getBrowserDriver(browserName, adminUrl);
+		driver = getBrowserDriverLocal(browserName, adminUrl);
 		adminLoginPage = PageGeneratorManagement.getAdminLoginPage(driver);
 		log.info("Precondition - RANDOM NUMBER" + randomNumber);
 		log.info("Precondition - Step 02 : Enter to username textbox with value" + adminUsername);

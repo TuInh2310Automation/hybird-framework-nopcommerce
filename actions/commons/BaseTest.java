@@ -234,13 +234,13 @@ public class BaseTest {
 
 	protected WebDriver getBrowserDriverGRID(String browserName, String appUrl, String osName, String ipAddress, String portNumber) {
 		DesiredCapabilities capability = null;
-		Platform platform = null;
+		Platform platform = Platform.ANY;
 
-		if (osName.contains("windows")) {
-			platform = Platform.WINDOWS;
-		} else {
-			platform = Platform.MAC;
-		}
+//		if (osName.contains("windows")) {
+//			platform = Platform.WINDOWS;
+//		} else {
+//			platform = Platform.MAC;
+//		}
 
 		switch (browserName) {
 		case "firefox":
